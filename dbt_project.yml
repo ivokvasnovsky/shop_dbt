@@ -1,4 +1,4 @@
-
+# This file is the configuration for your dbt project. It contains some
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
@@ -31,6 +31,25 @@ clean-targets:         # directories to be removed by `dbt clean`
 # files using the `{{ config(...) }}` macro.
 models:
   shop_dbt:
-    # Config indicated by + and applies to all files under models/example/
-    example:
+    staging:
       +materialized: view
+    intermediate:
+      +materialized: table
+      +schema: INT_DATA
+    mart:
+      +materialized: table
+      +schema: MART_DATA
+
+seeds:
+  shop_dbt:
+    +schema: MART_DATA
+    dim_countries:
+      +column_types:
+        country-code: varchar(3)
+        region-code: varchar(3)
+        sub-region-code: varchar(3)
+        intermediate-region-code: varchar(3)
+    dim_calendar:
+      +column_types:
+        date: date
+        is_weekend: boolean

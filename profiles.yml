@@ -1,0 +1,14 @@
+shop_dbt:  # This now matches your dbt_project.yml
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      # Uses local path by default, but can be overridden by CI
+      path: "{{ env_var('DBT_DUCKDB_PATH', 'C:/Users/Ivan/Documents/DWH_projects/shop_duckDB/DEV_SHOP.duckdb') }}"
+      schema: STAGE_DATA
+      threads: 1
+    prod:
+      type: duckdb
+      path: "{{ env_var('DBT_DUCKDB_PATH', 'C:/Users/Ivan/Documents/DWH_projects/shop_duckDB/PROD_SHOP.duckdb') }}"
+      schema: STAGE_DATA
+      threads: 4

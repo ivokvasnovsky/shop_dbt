@@ -1,0 +1,38 @@
+version: 2
+
+models:
+  - name: stg_customer_support
+    description: "Standardized customer support tickets"
+    columns:
+      - name: TICKET_ID
+        tests:
+          - unique
+          - not_null
+      - name: SATISFACTION_SCORE
+        tests:
+          - not_null
+
+  - name: stg_fact_inventory
+    description: "Inventory records with generated PRODUCT_KEY"
+    columns:
+      - name: INVENTORY_ID
+        tests:
+          - unique
+          - not_null
+      - name: PRODUCT_KEY
+        tests:
+          - not_null
+
+  - name: stg_fact_sales
+    description: "Sales records with generated PRODUCT_KEY"
+    columns:
+      - name: SALE_ID
+        tests:
+          - unique
+          - not_null
+      - name: PRODUCT_KEY
+        tests:
+          - not_null
+      - name: REVENUE
+        tests:
+          - not_null

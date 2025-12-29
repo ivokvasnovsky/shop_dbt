@@ -1,0 +1,38 @@
+version: 2
+
+models:
+  - name: int_customers
+    description: "Consolidated list of unique customers from support and sales."
+    columns:
+      - name: CUSTOMER_NAME_FULL
+        description: "The primary key for customers, coalesced to 'dummy' if null."
+        tests:
+          - unique
+          - not_null
+      - name: CUSTOMER_FIRST_NAME
+        description: "Extracted first name before the first space."
+
+  - name: int_products
+    description: "Unique list of products across inventory and sales."
+    columns:
+      - name: PRODUCT_KEY
+        description: "The surrogate key generated in staging."
+        tests:
+          - unique
+          - not_null
+      - name: PRODUCT_NAME
+        tests:
+          - not_null
+
+  - name: int_stores
+    description: "List of stores extracted from all sources."
+    columns:
+      - name: STORE_NAME_FULL
+        tests:
+          - unique
+          - not_null
+      - name: STORE_NUMBER
+        description: "The numeric ID extracted via regex."
+        tests:
+          - unique
+          - not_null

@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: dim_customers
+    description: "Final dimension table for customer information."
+    columns:
+      - name: CUSTOMER_NAME_FULL
+        description: "Primary key for customers."
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_products
+    description: "Final dimension table for product attributes."
+    columns:
+      - name: PRODUCT_KEY
+        description: "Surrogate key for products."
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_stores
+    description: "Final dimension table for store locations."
+    columns:
+      - name: STORE_NAME_FULL
+        tests:
+          - unique
+          - not_null
