@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: DEV_SHOP
+    database: DEV_SHOP          # optional in DuckDB, can omit if same DB
+    schema: STAGE_DATA
+    tables:
+      - name: fact_customer_support
+        description: "Raw customer support ticket data from the source system"
