@@ -11,6 +11,10 @@ jobs:
   linter_and_test:
     runs-on: ubuntu-latest
 
+    # We set the environment variable at the JOB level so all steps can see it
+    env:
+      DBT_DUCKDB_PATH: "ci_database.duckdb"
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -26,15 +30,13 @@ jobs:
           dbt deps
 
       # This creates the manifest.json file that SQLFluff needs 
-      # to understand your dbt project structure.
       - name: Compile dbt
         run: dbt compile --target dev --profiles-dir .
 
-      # This runs the linter. If this fails, the whole CI fails.
+      # This runs the linter.
       - name: Run SQLFluff Linter
         run: sqlfluff lint models --dialect duckdb
 
       # This runs your models and your data tests.
-      # If a test (like unique or not_null) fails, the CI fails.
       - name: Build and Test dbt
         run: dbt build --target dev --profiles-dir .
