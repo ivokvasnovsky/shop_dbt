@@ -1,6 +1,5 @@
 name: dbt_CI
 
-# This tells GitHub to run the script on every Pull Request or Push to 'main'
 on:
   pull_request:
     branches: [main]
@@ -11,7 +10,6 @@ jobs:
   linter_and_test:
     runs-on: ubuntu-latest
 
-    # We set the environment variable at the JOB level so all steps can see it
     env:
       DBT_DUCKDB_PATH: "ci_database.duckdb"
 
@@ -29,14 +27,16 @@ jobs:
           pip install dbt-duckdb sqlfluff-templater-dbt
           dbt deps
 
-      # This creates the manifest.json file that SQLFluff needs 
+      # 1. We MUST seed before we compile, or dbt won't find the refs in your models
+      - name: Initialize Seeds
+        run: dbt seed --target dev --profiles-dir .
+
       - name: Compile dbt
         run: dbt compile --target dev --profiles-dir .
 
-      # This runs the linter.
       - name: Run SQLFluff Linter
         run: sqlfluff lint models --dialect duckdb
 
-      # This runs your models and your data tests.
+      # 2. Changed to 'dbt build'. This will run seeds again (safely) and then models/tests.
       - name: Build and Test dbt
         run: dbt build --target dev --profiles-dir .

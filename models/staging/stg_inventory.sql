@@ -8,7 +8,8 @@ with stg_fact_inventory as (
         TRIM(brand)::VARCHAR(255) as brand,
         stock_quantity::INT as stock_quantity,
         load_timestamp::TIMESTAMP as load_timestamp
-    from {{ source('dev_shop', 'fact_inventory') }}
+    --from {{ source('dev_shop', 'fact_inventory') }}
+    from {{ ref('fact_inventory') }}
 )
 
 select
