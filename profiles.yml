@@ -1,3 +1,35 @@
+oms_dbt_proj:
+  target: dev
+  outputs:
+    dev:
+      account: MHSGIXI-YN00404
+      database: SLEEKMART_OMS
+      password: jan1960@Jurik94101
+      role: PC_DBT_ROLE
+      schema: L3_CONSUMPTION
+      threads: 1
+      type: snowflake
+      user: janjurik
+      warehouse: COMPUTE_WH
+
+    # === NEW PRODUCTION TARGET START ===
+    prod:
+      # Use the SAME connection details as dev:
+      account: MHSGIXI-YN00404
+      database: SLEEKMART_OMS
+      password: jan1960@Jurik94101
+      role: PC_DBT_ROLE
+      
+      # Use the DIFFERENT production schema:
+      schema: PROD_L1_LANDING        #<-- Production Schema
+      
+      # Use different settings for performance if needed (e.g., more threads):
+      threads: 4 # Higher thread count is common for production runs
+      type: snowflake
+      user: janjurik
+      warehouse: COMPUTE_WH
+    # === NEW PRODUCTION TARGET END ===
+    
 shop_dbt:  # This now matches your dbt_project.yml
   target: dev
   outputs:
