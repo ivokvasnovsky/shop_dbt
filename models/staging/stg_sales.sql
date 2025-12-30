@@ -1,23 +1,26 @@
-WITH stg_fact_sales AS 
-(
+WITH stg_fact_sales AS (
     SELECT
-        sale_id::INT AS SALE_ID,
-        STRPTIME(sale_date, '%Y-%m-%d')::DATE AS SALE_DATE,
-        TRIM(customer_name)::VARCHAR(255) AS CUSTOMER_NAME,
-        TRIM(customer_email)::VARCHAR(255) AS CUSTOMER_EMAIL,
-        TRIM(country)::VARCHAR(255) AS COUNTRY,
-        TRIM(region)::VARCHAR(255) AS REGION,
-        TRIM(store_name)::VARCHAR(255) AS STORE_NAME,
-        TRIM(product_name)::VARCHAR(255) AS PRODUCT_NAME,
-        TRIM(category)::VARCHAR(255) AS CATEGORY,
-        TRIM(brand)::VARCHAR(255) AS BRAND,
-        quantity::INT AS QUANTITY,
-        revenue::DECIMAL(10, 2) AS REVENUE,
-        load_timestamp::TIMESTAMP AS LOAD_TIMESTAMP
+        sale_id::INT AS sale_id,
+        STRPTIME(sale_date, '%Y-%m-%d')::DATE AS sale_date,
+        TRIM(customer_name)::VARCHAR(255) AS customer_name,
+        TRIM(customer_email)::VARCHAR(255) AS customer_email,
+        TRIM(country)::VARCHAR(255) AS country,
+        TRIM(region)::VARCHAR(255) AS region,
+        TRIM(store_name)::VARCHAR(255) AS store_name,
+        TRIM(product_name)::VARCHAR(255) AS product_name,
+        TRIM(category)::VARCHAR(255) AS category,
+        TRIM(brand)::VARCHAR(255) AS brand,
+        quantity::INT AS quantity,
+        revenue::DECIMAL(10, 2) AS revenue,
+        load_timestamp::TIMESTAMP AS load_timestamp
     FROM {{ source('dev_shop', 'fact_sales') }}
-) 
+)
 
-SELECT 
+SELECT
     *,
-    {{ dbt_utils.generate_surrogate_key(['PRODUCT_NAME', 'CATEGORY', 'BRAND']) }} AS PRODUCT_KEY
+    {{ dbt_utils.generate_surrogate_key([
+        'PRODUCT_NAME',
+         'CATEGORY',
+         'BRAND'
+    ]) }} AS product_key
 FROM stg_fact_sales

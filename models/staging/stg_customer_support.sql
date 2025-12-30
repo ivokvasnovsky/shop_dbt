@@ -1,15 +1,15 @@
 with stg_customer_support as (
     select
-        ticket_id::INT as TICKET_ID,
-        strptime(ticket_date, '%Y-%m-%d')::DATE as TICKET_DATE,
-        customer_name::VARCHAR(255) as CUSTOMER_NAME,
-        country::VARCHAR(255) as COUNTRY,
-        region::VARCHAR(255) as REGION,
-        store_name::VARCHAR(255) as STORE_NAME,
-        issue_type::VARCHAR(255) as ISSUE_TYPE,
-        resolution_minutes::INT as RESOLUTION_TIME_IN_MINUTES,
-        satisfaction_score::INT as SATISFACTION_SCORE,
-        load_timestamp::TIMESTAMP as LOAD_TIMESTAMP
+        ticket_id::INT as ticket_id,
+        strptime(ticket_date, '%Y-%m-%d')::DATE as ticket_date,
+        customer_name::VARCHAR(255) as customer_name,
+        country::VARCHAR(255) as country,
+        region::VARCHAR(255) as region,
+        store_name::VARCHAR(255) as store_name,
+        issue_type::VARCHAR(255) as issue_type,
+        resolution_minutes::INT as resolution_time_in_minutes,
+        satisfaction_score::INT as satisfaction_score,
+        load_timestamp::TIMESTAMP as load_timestamp
     from {{ source('dev_shop', 'fact_customer_support') }}
 )
 

@@ -1,0 +1,14 @@
+[sqlfluff]
+# Use the dbt templater to handle {{ ref() }} and {{ config() }}
+templater = dbt
+# Specify DuckDB as the SQL dialect
+dialect = duckdb
+
+[sqlfluff:templater:dbt]
+# Point to your dbt project and profile
+project_dir = .
+profiles_dir = .
+
+[sqlfluff:indentation]
+# Standardize indentation
+tab_width = 4
