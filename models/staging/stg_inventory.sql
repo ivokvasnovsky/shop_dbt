@@ -7,7 +7,7 @@ with stg_fact_inventory as (
         TRIM(category)::VARCHAR(255) as category,
         TRIM(brand)::VARCHAR(255) as brand,
         stock_quantity::INT as stock_quantity,
-        load_timestamp::TIMESTAMP as load_timestamp
+        {{ generate_load_timestamp() }}
     --from {{ source('dev_shop', 'fact_inventory') }}
     from {{ ref('fact_inventory') }}
 )

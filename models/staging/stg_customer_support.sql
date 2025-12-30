@@ -9,7 +9,7 @@ with stg_customer_support as (
         issue_type::VARCHAR(255) as issue_type,
         resolution_minutes::INT as resolution_time_in_minutes,
         satisfaction_score::INT as satisfaction_score,
-        load_timestamp::TIMESTAMP as load_timestamp
+        {{ generate_load_timestamp() }}
     --from {{ source('dev_shop', 'fact_customer_support') }}
     from {{ ref('fact_customer_support') }}
 )

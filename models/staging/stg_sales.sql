@@ -12,7 +12,7 @@ WITH stg_fact_sales AS (
         TRIM(brand)::VARCHAR(255) AS brand,
         quantity::INT AS quantity,
         revenue::DECIMAL(10, 2) AS revenue,
-        load_timestamp::TIMESTAMP AS load_timestamp
+        {{ generate_load_timestamp() }}
     --FROM {{ source('dev_shop', 'fact_sales') }}
     FROM {{ ref('fact_sales') }}
 )
