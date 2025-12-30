@@ -2,7 +2,6 @@ version: 2
 
 sources:
   - name: dev_shop
-    database: DEV_SHOP          # optional in DuckDB, can omit if same DB
     schema: RAW_DATA
     tables:
       - name: fact_customer_support

@@ -3,11 +3,11 @@ version: 2
 seeds:
   - name: dim_countries
     columns:
-      - name: alpha-2
+      - name: :alpha-2"
         tests:
           - unique
           - not_null
-      - name: country-code
+      - name: "country-code"
         tests:
           - unique
           - not_null
