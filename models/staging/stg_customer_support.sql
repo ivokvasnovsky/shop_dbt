@@ -1,7 +1,7 @@
 with stg_customer_support as (
     select
         ticket_id::INT as ticket_id,
-        ticket_date as ticket_date,
+        ticket_date,
         customer_name::VARCHAR(255) as customer_name,
         country::VARCHAR(255) as country,
         region::VARCHAR(255) as region,

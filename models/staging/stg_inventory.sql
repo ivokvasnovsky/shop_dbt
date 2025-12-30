@@ -1,7 +1,7 @@
 with stg_fact_inventory as (
     select
         inventory_id::INT as inventory_id,
-        check_date as check_date,
+        check_date,
         TRIM(store_name)::VARCHAR(255) as store_name,
         TRIM(product_name)::VARCHAR(255) as product_name,
         TRIM(category)::VARCHAR(255) as category,

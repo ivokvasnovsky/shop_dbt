@@ -1,7 +1,7 @@
 WITH stg_fact_sales AS (
     SELECT
         sale_id::INT AS sale_id,
-        sale_date AS sale_date,
+        sale_date,
         TRIM(customer_name)::VARCHAR(255) AS customer_name,
         TRIM(customer_email)::VARCHAR(255) AS customer_email,
         TRIM(country)::VARCHAR(255) AS country,
