@@ -4,10 +4,12 @@ seeds:
   - name: dim_countries
     columns:
       - name: "alpha-2"
+        quote: true  # <--- Add this
         tests:
           - unique
           - not_null
       - name: "country-code"
+        quote: true  # <--- Add this
         tests:
           - unique
           - not_null

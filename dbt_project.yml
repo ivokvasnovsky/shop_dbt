@@ -43,12 +43,16 @@ models:
 seeds:
   shop_dbt:
     +schema: MART_DATA
+    
     fact_customer_support:
       +schema: RAW_DATA
+    
     fact_inventory:
       +schema: RAW_DATA
+
     fact_sales:
       +schema: RAW_DATA
+
 
     dim_countries:
       +column_types:
