@@ -27,13 +27,12 @@ jobs:
       - name: Run SQLFluff Linter
         env:
           MOTHERDUCK_TOKEN: ${{ secrets.MOTHERDUCK_TOKEN }}
-          run: sqlfluff lint models --dialect duckdb
+        run: sqlfluff lint models --dialect duckdb  # <--- Moved out from under env
 
       - name: Build and Test dbt
         env:
-          # dbt uses this to connect to MotherDuck via your profiles.yml
           MOTHERDUCK_TOKEN: ${{ secrets.MOTHERDUCK_TOKEN }}
-          run: dbt build --target dev --profiles-dir .
+        run: dbt build --target dev --profiles-dir .  # <--- Moved out from under env
 
   # --- JOB 2: DEPLOY (Only if Job 1 passes AND on Main branch) ---
   deploy:
