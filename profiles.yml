@@ -29,18 +29,21 @@ oms_dbt_proj:
       user: janjurik
       warehouse: COMPUTE_WH
     # === NEW PRODUCTION TARGET END ===
-    
-shop_dbt:  # This now matches your dbt_project.yml
+
+shop_dbt:
   target: dev
   outputs:
     dev:
       type: duckdb
-      # Uses local path by default, but can be overridden by CI
-      path: "{{ env_var('DBT_DUCKDB_PATH', 'C:/Users/Ivan/Documents/DWH_projects/shop_duckDB/DEV_SHOP.duckdb') }}"
-      schema: STAGE_DATA
-      threads: 1
+      # Connects to MotherDuck 'dev_shop_cloud' database
+      path: "md:dev_shop_cloud?motherduck_token={{ env_var('MOTHERDUCK_TOKEN') }}"
+      threads: 4
+      # Adjust this if your models should go into a specific schema in the cloud
+      schema: main 
+
     prod:
       type: duckdb
-      path: "{{ env_var('DBT_DUCKDB_PATH', 'C:/Users/Ivan/Documents/DWH_projects/shop_duckDB/PROD_SHOP.duckdb') }}"
-      schema: STAGE_DATA
+      # Connects to MotherDuck 'prod_shop_cloud' database
+      path: "md:prod_shop_cloud?motherduck_token={{ env_var('MOTHERDUCK_TOKEN') }}"
       threads: 4
+      schema: main
