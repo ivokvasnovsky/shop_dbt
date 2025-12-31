@@ -13,8 +13,7 @@ WITH stg_fact_sales AS (
         quantity::INT AS quantity,
         revenue::DECIMAL(10, 2) AS revenue,
         {{ generate_load_timestamp() }}
-    FROM {{ source('dev_shop', 'fact_sales') }}
-    --FROM {{ ref('fact_sales') }}
+    FROM {{ source('dev_shop_cloud', 'fact_sales') }}
 )
 
 SELECT

@@ -10,8 +10,7 @@ with stg_customer_support as (
         resolution_minutes::INT as resolution_time_in_minutes,
         satisfaction_score::INT as satisfaction_score,
         {{ generate_load_timestamp() }}
-    from {{ source('dev_shop', 'fact_customer_support') }}
-    --from {{ ref('fact_customer_support') }}
+    from {{ source('dev_shop_cloud', 'fact_customer_support') }}
 )
 
 select * from stg_customer_support

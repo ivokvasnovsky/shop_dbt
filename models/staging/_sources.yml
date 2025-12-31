@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: dev_shop
+  - name: dev_shop_cloud
     schema: RAW_DATA
     tables:
       - name: fact_customer_support
