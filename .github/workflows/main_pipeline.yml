@@ -25,7 +25,9 @@ jobs:
           dbt deps
 
       - name: Run SQLFluff Linter
-        run: sqlfluff lint models --dialect duckdb
+        env:
+          MOTHERDUCK_TOKEN: ${{ secrets.MOTHERDUCK_TOKEN }}
+          run: sqlfluff lint models --dialect duckdb
 
       - name: Build and Test dbt
         env:
