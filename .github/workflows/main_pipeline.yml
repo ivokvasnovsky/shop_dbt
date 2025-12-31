@@ -55,4 +55,4 @@ jobs:
           SOURCE_DB: "dev_shop_cloud"
           TARGET_DB: "prod_shop_cloud"
         run: |
-          ./duckdb -c "CREATE OR REPLACE REPLICA ${TARGET_DB} FROM ${SOURCE_DB};"
+          ./duckdb md: -c "CREATE OR REPLACE DATABASE ${TARGET_DB} FROM ${SOURCE_DB};"
