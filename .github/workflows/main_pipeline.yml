@@ -5,6 +5,7 @@ on:
     branches: [main]
   push:
     branches: [main]
+  workflow_dispatch:
 
 jobs:
   # --- JOB 1: QUALITY GATE (Run dbt tests) ---
@@ -34,10 +35,11 @@ jobs:
           MOTHERDUCK_TOKEN: ${{ secrets.MOTHERDUCK_TOKEN }}
         run: dbt build --target dev --profiles-dir .
 
-  # --- JOB 2: DEPLOY (Only if Job 1 passes AND on Main branch) ---
+  #--- JOB 2: DEPLOY (Only if Job 1 passes AND on Main branch) ---
   deploy:
     needs: linter_and_test
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    #if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code  # Added checkout so it can find the duckdb binary if needed, though you are downloading it
