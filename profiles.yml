@@ -29,21 +29,18 @@ oms_dbt_proj:
       user: janjurik
       warehouse: COMPUTE_WH
     # === NEW PRODUCTION TARGET END ===
-
+    
 shop_dbt:
   target: dev
   outputs:
     dev:
       type: duckdb
-      # Connects to MotherDuck 'dev_shop_cloud' database
-      path: "md:dev_shop_cloud?motherduck_token={{ env_var('MOTHERDUCK_TOKEN') }}"
-      threads: 4
-      # Adjust this if your models should go into a specific schema in the cloud
+      path: "{{ env_var('DBT_DUCKDB_PATH', 'md:dev_shop_cloud') }}?motherduck_token={{ env_var('MOTHERDUCK_TOKEN') }}"
       schema: main 
+      threads: 4  
 
     prod:
       type: duckdb
-      # Connects to MotherDuck 'prod_shop_cloud' database
-      path: "md:prod_shop_cloud?motherduck_token={{ env_var('MOTHERDUCK_TOKEN') }}"
-      threads: 4
+      path: "{{ env_var('DBT_DUCKDB_PATH', 'md:prod_shop_cloud') }}?motherduck_token={{ env_var('MOTHERDUCK_TOKEN') }}"
       schema: main
+      threads: 4

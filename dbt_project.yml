@@ -33,6 +33,7 @@ models:
   shop_dbt:
     staging:
       +materialized: view
+      +schema: STAGE_DATA
     intermediate:
       +materialized: table
       +schema: INT_DATA
@@ -55,12 +56,14 @@ seeds:
 
 
     dim_countries:
+      +schema: MART_DATA
       +column_types:
         country-code: varchar(3)
         region-code: varchar(3)
         sub-region-code: varchar(3)
         intermediate-region-code: varchar(3)
     dim_calendar:
+      +schema: MART_DATA
       +column_types:
         date: date
         is_weekend: boolean
