@@ -13,4 +13,9 @@ with stg_customer_support as (
     from {{ source('dev_shop_cloud', 'fact_customer_support') }}
 )
 
-select * from stg_customer_support
+select
+    *,
+        {{ dbt_utils.generate_surrogate_key([
+            'TICKET_ID'
+        ]) }} as customer_support_key
+from stg_customer_support

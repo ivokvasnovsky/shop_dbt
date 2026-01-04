@@ -4,7 +4,7 @@ models:
   - name: int_customers
     description: "Consolidated list of unique customers from support and sales."
     columns:
-      - name: CUSTOMER_FULL_NAME
+      - name: CUSTOMER_KEY
         description: "The primary key for customers, coalesced to 'dummy' if null."
         tests:
           - unique

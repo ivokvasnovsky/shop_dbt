@@ -10,6 +10,26 @@ WITH CUSTOMERS AS (
         REGEXP_EXTRACT(CUSTOMER_NAME, '^([^ ]+)', 1) AS CUSTOMER_FIRST_NAME,
         TRIM(REGEXP_EXTRACT(CUSTOMER_NAME, ' (.*)$', 1)) AS CUSTOMER_LAST_NAME
     FROM {{ ref ('stg_sales') }}
+),
+
+CUSTOMER_KEYS AS (
+    SELECT
+        CUSTOMERS.CUSTOMER_FULL_NAME,
+        CUSTOMERS.CUSTOMER_FIRST_NAME,
+        CUSTOMERS.CUSTOMER_LAST_NAME,
+        SALES.CUSTOMER_EMAIL,
+        {{ dbt_utils.generate_surrogate_key([
+            'CUSTOMER_FULL_NAME',
+            'CUSTOMER_FIRST_NAME',
+            'CUSTOMER_LAST_NAME',
+            'customer_email'
+        ]) }} AS CUSTOMER_KEY
+    FROM CUSTOMERS
+    LEFT JOIN
+        {{ ref ('stg_sales') }} AS SALES
+        ON
+            CUSTOMERS.CUSTOMER_FULL_NAME = SALES.CUSTOMER_NAME
+            AND SALES.CUSTOMER_EMAIL IS NOT NULL
 )
 
-SELECT * FROM CUSTOMERS
+SELECT * FROM CUSTOMER_KEYS

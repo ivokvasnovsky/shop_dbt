@@ -1,0 +1,1001 @@
+ticket_id,ticket_date,customer_name,country,region,store_name,issue_type,resolution_minutes,satisfaction_score
+1,2025-11-26,Rachel Thomas,Czech Republic,Africa,Store_16,Delivery Delay,158,3
+2,2025-11-30,David Park,Bosnia and Herzegovina,Asia,Store_8,Billing Issue,448,3
+3,2025-11-27,Kristina Harrington,Bouvet Island (Bouvetoya),Europe,Store_20,Product Defect,372,3
+4,2025-11-30,Phyllis Vaughn,Anguilla,Africa,Store_13,Product Defect,594,4
+5,2025-11-25,Bob Thompson,Falkland Islands (Malvinas),Europe,Store_6,Product Defect,529,3
+6,2025-11-25,Chad Anderson,Northern Mariana Islands,North America,Store_3,Shipping Error,368,5
+7,2025-11-24,Anita Larsen,Falkland Islands (Malvinas),Asia,Store_1,Other,60,5
+8,2025-11-23,Erika Curtis,Saint Vincent and the Grenadines,Africa,Store_12,Shipping Error,156,5
+9,2025-11-29,Thomas Goodwin,Bosnia and Herzegovina,North America,Store_20,Billing Issue,256,5
+10,2025-11-24,Michael Avila,Northern Mariana Islands,South America,Store_16,Product Defect,240,2
+11,2025-11-25,Alicia Vazquez,Burundi,South America,Store_11,Product Defect,317,5
+12,2025-11-23,Joseph Beard,Anguilla,Oceania,Store_10,Other,413,4
+13,2025-11-25,David Olson DDS,Saint Vincent and the Grenadines,Africa,Store_12,Other,368,3
+14,2025-11-25,Katherine Smith,Northern Mariana Islands,Europe,Store_1,Delivery Delay,387,3
+15,2025-11-27,Lydia Bentley,Falkland Islands (Malvinas),Africa,Store_10,Shipping Error,159,1
+16,2025-11-30,Madison Kramer,Falkland Islands (Malvinas),Europe,Store_12,Delivery Delay,577,4
+17,2025-11-23,Connor Snyder,Saint Vincent and the Grenadines,Oceania,Store_5,Product Defect,120,4
+18,2025-11-30,Andrew Walters,Ecuador,Africa,Store_20,Delivery Delay,152,3
+19,2025-11-27,Rachel Smith,Bosnia and Herzegovina,Africa,Store_8,Other,91,1
+20,2025-11-26,Alex Moore,Anguilla,Europe,Store_9,Delivery Delay,68,2
+21,2025-11-30,Grant Coleman,Anguilla,Africa,Store_3,Delivery Delay,168,5
+22,2025-11-30,Margaret Brennan,Anguilla,Africa,Store_11,Shipping Error,349,3
+23,2025-11-24,Nicole Gonzalez,Anguilla,South America,Store_7,Shipping Error,72,1
+24,2025-11-30,George Holloway,Bosnia and Herzegovina,South America,Store_7,Product Defect,38,2
+25,2025-11-25,Kyle King,Ecuador,Europe,Store_15,Shipping Error,454,4
+26,2025-11-25,Christopher Davila,Bouvet Island (Bouvetoya),North America,Store_16,Billing Issue,442,2
+27,2025-11-24,Jessica Bryant,Saint Vincent and the Grenadines,North America,Store_10,Billing Issue,370,5
+28,2025-11-25,Edward Woodard,Bosnia and Herzegovina,Asia,Store_13,Billing Issue,422,2
+29,2025-11-24,Rose Ingram,Bosnia and Herzegovina,North America,Store_20,Billing Issue,48,5
+30,2025-11-27,David Gallagher,Falkland Islands (Malvinas),Europe,Store_10,Shipping Error,388,2
+31,2025-11-30,Keith Mills,Czech Republic,North America,Store_15,Other,194,3
+32,2025-11-29,Jordan Gomez,Falkland Islands (Malvinas),Africa,Store_12,Other,453,3
+33,2025-11-30,Kevin Lane,Czech Republic,South America,Store_19,Billing Issue,346,4
+34,2025-11-30,Melissa Kennedy,Northern Mariana Islands,Asia,Store_4,Other,431,3
+35,2025-11-23,Amanda Avila MD,Czech Republic,South America,Store_20,Other,438,3
+36,2025-11-28,Julie Richmond,Bouvet Island (Bouvetoya),Europe,Store_12,Other,20,3
+37,2025-11-25,Michele Alvarez,Ecuador,South America,Store_17,Shipping Error,17,3
+38,2025-11-25,Stacy Anderson,Czech Republic,Asia,Store_13,Other,526,5
+39,2025-11-28,Julia Deleon,Northern Mariana Islands,Oceania,Store_18,Delivery Delay,321,4
+40,2025-11-29,Wayne Patton,Northern Mariana Islands,Oceania,Store_13,Product Defect,534,2
+41,2025-11-28,Gene Johnson,Northern Mariana Islands,Oceania,Store_10,Delivery Delay,442,2
+42,2025-11-30,Morgan Young,Ecuador,Europe,Store_6,Delivery Delay,176,2
+43,2025-11-28,Mackenzie Weber,Anguilla,Europe,Store_6,Product Defect,589,1
+44,2025-11-25,Jessica Sims,Bosnia and Herzegovina,Oceania,Store_10,Billing Issue,406,2
+45,2025-11-30,Nathan West,Czech Republic,North America,Store_11,Delivery Delay,315,5
+46,2025-11-30,Christy Hernandez,Falkland Islands (Malvinas),Africa,Store_16,Delivery Delay,337,1
+47,2025-11-25,David Stephenson DDS,Bosnia and Herzegovina,Asia,Store_9,Billing Issue,588,5
+48,2025-11-26,Christopher Miller,Saint Pierre and Miquelon,Asia,Store_8,Product Defect,354,5
+49,2025-11-27,Eric Smith,Bosnia and Herzegovina,Africa,Store_20,Other,83,4
+50,2025-11-28,Jose Jennings,Saint Vincent and the Grenadines,Asia,Store_20,Billing Issue,161,2
+51,2025-11-30,Jennifer Howard,Ecuador,Europe,Store_5,Delivery Delay,600,1
+52,2025-11-24,Susan Pruitt,Saint Pierre and Miquelon,Europe,Store_16,Billing Issue,483,2
+53,2025-11-24,Jacob Bradshaw,Bouvet Island (Bouvetoya),Europe,Store_10,Other,448,2
+54,2025-11-26,Jennifer Howard,Czech Republic,Europe,Store_19,Other,113,1
+55,2025-11-28,Janet Knox,Northern Mariana Islands,Asia,Store_11,Other,413,1
+56,2025-11-30,Nancy Davis,Falkland Islands (Malvinas),Europe,Store_1,Billing Issue,517,3
+57,2025-11-26,Daniel Malone,Falkland Islands (Malvinas),Oceania,Store_10,Billing Issue,294,2
+58,2025-11-24,Andrea Hubbard,Northern Mariana Islands,Oceania,Store_10,Product Defect,32,5
+59,2025-11-27,Amber Flores,Bouvet Island (Bouvetoya),Africa,Store_6,Other,431,3
+60,2025-11-27,Bradley Ramos,Bosnia and Herzegovina,Europe,Store_15,Other,468,2
+61,2025-11-28,Anthony Oconnor,Ecuador,Europe,Store_12,Billing Issue,137,3
+62,2025-11-24,Charles Rodriguez,Bosnia and Herzegovina,Europe,Store_19,Product Defect,483,3
+63,2025-11-30,Michael Edwards,Burundi,Europe,Store_15,Other,403,1
+64,2025-11-29,Benjamin Foster,Bouvet Island (Bouvetoya),Oceania,Store_14,Other,297,1
+65,2025-11-26,Edward Johnson,Ecuador,Europe,Store_6,Other,283,5
+66,2025-11-26,Jessica Torres,Czech Republic,Africa,Store_11,Billing Issue,388,5
+67,2025-11-25,Stephanie Bonilla,Burundi,South America,Store_2,Shipping Error,149,2
+68,2025-11-29,Thomas Rowe,Bosnia and Herzegovina,Oceania,Store_4,Billing Issue,412,5
+69,2025-11-27,Ryan Jensen,Bosnia and Herzegovina,Europe,Store_14,Delivery Delay,551,2
+70,2025-11-30,Mr. Joel Woods,Czech Republic,Europe,Store_1,Delivery Delay,188,2
+71,2025-11-28,Nathan Casey,Bouvet Island (Bouvetoya),Oceania,Store_5,Delivery Delay,280,3
+72,2025-11-29,Nicholas Bartlett Jr.,Bosnia and Herzegovina,Europe,Store_11,Shipping Error,225,3
+73,2025-11-27,Casey Scott,Saint Vincent and the Grenadines,Africa,Store_12,Shipping Error,220,2
+74,2025-11-30,Mr. Michael Thompson,Ecuador,Africa,Store_17,Billing Issue,102,2
+75,2025-11-30,Katherine Gutierrez,Saint Pierre and Miquelon,South America,Store_1,Delivery Delay,589,5
+76,2025-11-24,Rachel Anderson,Bouvet Island (Bouvetoya),Europe,Store_8,Product Defect,499,5
+77,2025-11-28,Brianna Hester,Anguilla,North America,Store_7,Delivery Delay,287,2
+78,2025-11-25,Ruben Aguilar,Falkland Islands (Malvinas),Europe,Store_15,Delivery Delay,491,1
+79,2025-11-25,Kristen West,Burundi,Africa,Store_16,Other,441,2
+80,2025-11-26,Sarah Hopkins,Saint Pierre and Miquelon,South America,Store_20,Delivery Delay,539,1
+81,2025-11-26,Kathy Aguilar,Anguilla,North America,Store_2,Other,160,2
+82,2025-11-23,Amanda Mann,Falkland Islands (Malvinas),Asia,Store_17,Billing Issue,259,3
+83,2025-11-24,Ryan Reed,Bosnia and Herzegovina,South America,Store_17,Other,115,4
+84,2025-11-27,Miranda Phillips,Bosnia and Herzegovina,Asia,Store_16,Delivery Delay,50,3
+85,2025-11-25,Jeffery Whitaker,Ecuador,Africa,Store_19,Delivery Delay,30,2
+86,2025-11-27,Franklin Boyd,Anguilla,North America,Store_9,Delivery Delay,525,1
+87,2025-11-24,Tyrone Meyer,Saint Pierre and Miquelon,Oceania,Store_8,Delivery Delay,259,4
+88,2025-11-30,Samuel Hill,Falkland Islands (Malvinas),North America,Store_9,Delivery Delay,244,1
+89,2025-11-28,Todd Reed,Burundi,Africa,Store_6,Billing Issue,108,4
+90,2025-11-26,Cory Wyatt,Saint Vincent and the Grenadines,North America,Store_12,Other,132,2
+91,2025-11-29,Rachel Stevenson,Saint Pierre and Miquelon,North America,Store_6,Delivery Delay,98,3
+92,2025-11-25,Andrea White,Bosnia and Herzegovina,Oceania,Store_16,Other,443,5
+93,2025-11-28,Brian Moody,Falkland Islands (Malvinas),South America,Store_6,Delivery Delay,109,4
+94,2025-11-30,Monica Mason,Northern Mariana Islands,Oceania,Store_2,Shipping Error,183,1
+95,2025-11-25,Elizabeth Miranda,Bouvet Island (Bouvetoya),North America,Store_9,Delivery Delay,483,4
+96,2025-11-29,Jason Perkins,Falkland Islands (Malvinas),Oceania,Store_11,Product Defect,413,2
+97,2025-11-25,Dr. Stacey Hernandez MD,Bouvet Island (Bouvetoya),Oceania,Store_8,Billing Issue,59,1
+98,2025-11-24,John Johnson,Saint Vincent and the Grenadines,Asia,Store_9,Other,401,5
+99,2025-11-28,David Castro,Northern Mariana Islands,Africa,Store_5,Other,99,5
+100,2025-11-27,John Watkins,Saint Pierre and Miquelon,Africa,Store_19,Billing Issue,379,3
+101,2025-11-27,Melissa Pineda,Bosnia and Herzegovina,South America,Store_5,Billing Issue,316,4
+102,2025-11-25,Scott Diaz,Northern Mariana Islands,Asia,Store_16,Billing Issue,328,2
+103,2025-11-24,Carla Holden,Burundi,Asia,Store_14,Product Defect,597,3
+104,2025-11-23,Joshua Knight,Falkland Islands (Malvinas),South America,Store_11,Delivery Delay,305,3
+105,2025-11-27,Michael Gomez,Falkland Islands (Malvinas),South America,Store_12,Shipping Error,331,5
+106,2025-11-24,Helen Roberts,Falkland Islands (Malvinas),Oceania,Store_11,Product Defect,339,2
+107,2025-11-29,Gina Williams,Falkland Islands (Malvinas),South America,Store_11,Delivery Delay,588,5
+108,2025-11-26,Eugene Miller,Northern Mariana Islands,Asia,Store_8,Delivery Delay,502,5
+109,2025-11-27,Alison Ross,Anguilla,Europe,Store_8,Other,115,2
+110,2025-11-29,Jason Brooks,Bosnia and Herzegovina,Africa,Store_16,Billing Issue,281,5
+111,2025-11-26,Lauren Carroll,Bosnia and Herzegovina,North America,Store_16,Shipping Error,510,2
+112,2025-11-30,Christine Bowman,Bouvet Island (Bouvetoya),Asia,Store_9,Product Defect,182,3
+113,2025-11-24,Angela Vang,Anguilla,Asia,Store_1,Product Defect,554,2
+114,2025-11-27,Danielle Moore,Bouvet Island (Bouvetoya),North America,Store_10,Shipping Error,155,2
+115,2025-11-26,John Jackson,Burundi,North America,Store_2,Shipping Error,319,1
+116,2025-11-30,Joshua Myers,Ecuador,North America,Store_16,Delivery Delay,68,4
+117,2025-11-26,Sabrina Martin,Anguilla,North America,Store_20,Other,585,5
+118,2025-11-30,Mary Graves,Burundi,North America,Store_8,Billing Issue,178,1
+119,2025-11-23,Sarah Scott,Saint Pierre and Miquelon,Asia,Store_17,Product Defect,486,3
+120,2025-11-28,Jennifer Bailey,Saint Pierre and Miquelon,North America,Store_14,Product Defect,177,1
+121,2025-11-27,Matthew Stanley,Ecuador,Europe,Store_2,Other,550,3
+122,2025-11-24,Miguel Arnold,Saint Pierre and Miquelon,Europe,Store_4,Other,291,2
+123,2025-11-24,Taylor Dorsey,Burundi,Oceania,Store_18,Product Defect,307,2
+124,2025-11-23,Megan Tran MD,Czech Republic,Asia,Store_7,Product Defect,341,3
+125,2025-11-26,Brandon Norman,Falkland Islands (Malvinas),North America,Store_7,Billing Issue,592,4
+126,2025-11-24,Justin Walker,Bosnia and Herzegovina,South America,Store_5,Delivery Delay,291,1
+127,2025-11-26,Philip Allison,Anguilla,Asia,Store_5,Billing Issue,215,1
+128,2025-11-23,Kevin Campbell,Bosnia and Herzegovina,Oceania,Store_3,Shipping Error,245,1
+129,2025-11-29,Crystal Hall,Saint Vincent and the Grenadines,North America,Store_5,Billing Issue,247,1
+130,2025-11-30,Jessica Bender,Anguilla,Asia,Store_9,Shipping Error,529,2
+131,2025-11-23,Paula Burnett,Burundi,Europe,Store_5,Delivery Delay,186,3
+132,2025-11-30,Jessica Faulkner,Bosnia and Herzegovina,Africa,Store_19,Shipping Error,94,1
+133,2025-11-25,Randall Mahoney,Falkland Islands (Malvinas),Europe,Store_19,Other,198,4
+134,2025-11-25,Matthew Shannon,Falkland Islands (Malvinas),Asia,Store_20,Billing Issue,195,1
+135,2025-11-30,Linda Reyes,Czech Republic,Africa,Store_19,Delivery Delay,379,2
+136,2025-11-26,Jacqueline Dixon,Bouvet Island (Bouvetoya),Europe,Store_19,Shipping Error,519,5
+137,2025-11-28,Jennifer Farmer,Bouvet Island (Bouvetoya),South America,Store_13,Billing Issue,72,1
+138,2025-11-23,Angela Cantu,Northern Mariana Islands,Asia,Store_9,Billing Issue,36,2
+139,2025-11-30,Travis James,Burundi,South America,Store_2,Delivery Delay,144,2
+140,2025-11-24,Scott Curry,Czech Republic,North America,Store_11,Shipping Error,391,1
+141,2025-11-23,Alan Carter,Northern Mariana Islands,Europe,Store_7,Shipping Error,435,5
+142,2025-11-28,Alyssa Bryant,Burundi,Asia,Store_8,Other,501,2
+143,2025-11-27,Dr. Cesar Nixon MD,Burundi,Oceania,Store_3,Other,290,3
+144,2025-11-24,Rodney Hurst,Czech Republic,North America,Store_2,Product Defect,124,2
+145,2025-11-24,Richard Richards,Saint Pierre and Miquelon,North America,Store_7,Shipping Error,213,4
+146,2025-11-25,Jake Casey,Ecuador,Europe,Store_3,Product Defect,548,1
+147,2025-11-26,John Baxter,Bouvet Island (Bouvetoya),Europe,Store_5,Shipping Error,171,2
+148,2025-11-30,Emily Perkins,Northern Mariana Islands,Asia,Store_2,Shipping Error,480,3
+149,2025-11-25,Kimberly Lee,Ecuador,North America,Store_5,Other,178,3
+150,2025-11-27,Kristina Serrano,Czech Republic,Asia,Store_9,Shipping Error,400,2
+151,2025-11-24,Melissa Johnson,Czech Republic,Africa,Store_3,Billing Issue,394,3
+152,2025-11-23,Joseph Rodriguez,Saint Vincent and the Grenadines,South America,Store_11,Product Defect,378,3
+153,2025-11-25,John Johnston,Saint Vincent and the Grenadines,South America,Store_6,Billing Issue,462,4
+154,2025-11-30,Dr. Robin Griffith PhD,Czech Republic,Oceania,Store_5,Product Defect,434,4
+155,2025-11-29,Sean Peterson,Bouvet Island (Bouvetoya),South America,Store_10,Shipping Error,27,3
+156,2025-11-28,Jesse Crosby,Ecuador,North America,Store_5,Billing Issue,189,1
+157,2025-11-28,Maria Moreno MD,Bosnia and Herzegovina,South America,Store_9,Product Defect,390,3
+158,2025-11-30,Cole Smith,Saint Pierre and Miquelon,Europe,Store_13,Billing Issue,249,4
+159,2025-11-24,Lori Gates PhD,Bosnia and Herzegovina,Oceania,Store_13,Delivery Delay,208,3
+160,2025-11-30,Jennifer Larson,Saint Vincent and the Grenadines,Europe,Store_4,Shipping Error,62,1
+161,2025-11-28,Michael Frank,Czech Republic,Asia,Store_8,Other,394,2
+162,2025-11-24,Lance Harris,Bouvet Island (Bouvetoya),Oceania,Store_11,Billing Issue,202,3
+163,2025-11-23,Laura Long,Bouvet Island (Bouvetoya),Asia,Store_1,Billing Issue,233,4
+164,2025-11-23,Michael Richardson,Saint Pierre and Miquelon,South America,Store_18,Delivery Delay,558,5
+165,2025-11-26,Elizabeth Trevino,Ecuador,Africa,Store_12,Billing Issue,529,2
+166,2025-11-29,Richard Miller,Falkland Islands (Malvinas),Asia,Store_9,Other,474,3
+167,2025-11-30,Heather Perez,Bosnia and Herzegovina,Africa,Store_16,Billing Issue,151,3
+168,2025-11-27,Jeffrey Duke,Anguilla,Oceania,Store_19,Delivery Delay,325,2
+169,2025-11-29,Margaret Alexander,Saint Pierre and Miquelon,North America,Store_16,Billing Issue,428,5
+170,2025-11-27,Hailey Miller,Bosnia and Herzegovina,South America,Store_17,Billing Issue,78,4
+171,2025-11-29,Mr. Daniel Owen,Burundi,North America,Store_11,Product Defect,73,5
+172,2025-11-24,Amy Williams,Ecuador,Africa,Store_1,Other,428,4
+173,2025-11-27,Kevin Mercado,Ecuador,Europe,Store_4,Other,242,2
+174,2025-11-27,Sharon Hamilton,Czech Republic,South America,Store_3,Other,173,4
+175,2025-11-28,Tyrone Mclean,Anguilla,North America,Store_15,Delivery Delay,35,1
+176,2025-11-25,Reginald French,Bosnia and Herzegovina,Asia,Store_20,Shipping Error,210,3
+177,2025-11-24,Sandra Whitney,Saint Pierre and Miquelon,South America,Store_12,Shipping Error,71,3
+178,2025-11-26,Robert Thompson,Anguilla,Europe,Store_19,Product Defect,400,1
+179,2025-11-26,Vanessa Gonzalez,Northern Mariana Islands,Europe,Store_10,Billing Issue,432,3
+180,2025-11-24,Rebecca Thompson,Bosnia and Herzegovina,South America,Store_6,Other,310,1
+181,2025-11-23,Kevin Bautista,Saint Vincent and the Grenadines,South America,Store_16,Billing Issue,558,1
+182,2025-11-29,Stacy Williams,Bosnia and Herzegovina,Oceania,Store_8,Product Defect,551,5
+183,2025-11-27,Michael West,Northern Mariana Islands,Europe,Store_3,Shipping Error,94,2
+184,2025-11-23,Bryan Wood,Saint Vincent and the Grenadines,Oceania,Store_16,Delivery Delay,485,1
+185,2025-11-27,Brandon Turner,Czech Republic,South America,Store_19,Delivery Delay,580,4
+186,2025-11-30,Renee Smith,Saint Vincent and the Grenadines,South America,Store_7,Delivery Delay,441,5
+187,2025-11-25,Ronald Daniels,Burundi,Asia,Store_20,Product Defect,517,3
+188,2025-11-29,Patricia Goodman,Northern Mariana Islands,Europe,Store_2,Delivery Delay,424,5
+189,2025-11-30,Howard Miller,Burundi,Asia,Store_2,Delivery Delay,488,1
+190,2025-11-24,Desiree Johnson,Saint Pierre and Miquelon,North America,Store_5,Billing Issue,422,4
+191,2025-11-24,Heather Smith,Saint Pierre and Miquelon,Europe,Store_13,Delivery Delay,18,5
+192,2025-11-28,Megan Reed,Saint Vincent and the Grenadines,South America,Store_2,Delivery Delay,526,1
+193,2025-11-23,Gary Gonzalez,Bouvet Island (Bouvetoya),Europe,Store_5,Product Defect,150,1
+194,2025-11-25,Garrett Harrison,Czech Republic,Africa,Store_7,Other,57,3
+195,2025-11-24,Stacey Ferguson,Northern Mariana Islands,Europe,Store_3,Other,84,4
+196,2025-11-26,Lisa Hernandez,Falkland Islands (Malvinas),Oceania,Store_19,Delivery Delay,20,4
+197,2025-11-30,Sharon Bray,Czech Republic,Africa,Store_17,Shipping Error,81,1
+198,2025-11-24,James Bauer,Falkland Islands (Malvinas),Africa,Store_10,Delivery Delay,98,4
+199,2025-11-26,Lori Mendoza,Anguilla,Africa,Store_5,Product Defect,386,1
+200,2025-11-29,Martin Phillips,Falkland Islands (Malvinas),North America,Store_19,Billing Issue,534,4
+201,2025-11-24,Anthony Romero,Czech Republic,South America,Store_5,Delivery Delay,79,4
+202,2025-11-23,Christine Mitchell,Anguilla,Asia,Store_9,Billing Issue,414,3
+203,2025-11-28,Mitchell Key,Northern Mariana Islands,North America,Store_9,Product Defect,100,5
+204,2025-11-25,Julie Nielsen,Ecuador,Asia,Store_17,Delivery Delay,354,4
+205,2025-11-28,Jonathan Ramirez,Bosnia and Herzegovina,Asia,Store_1,Product Defect,316,2
+206,2025-11-27,Jennifer Gamble,Anguilla,South America,Store_7,Product Defect,398,2
+207,2025-11-26,Alyssa Stanley,Bouvet Island (Bouvetoya),Oceania,Store_15,Billing Issue,309,5
+208,2025-11-30,Meagan Martinez,Burundi,Europe,Store_7,Product Defect,17,2
+209,2025-11-23,James Martinez DVM,Czech Republic,Europe,Store_7,Other,148,1
+210,2025-11-26,Mr. Andrew Price,Bouvet Island (Bouvetoya),Africa,Store_14,Shipping Error,450,4
+211,2025-11-27,Darrell Khan,Falkland Islands (Malvinas),Africa,Store_6,Product Defect,537,4
+212,2025-11-23,Lindsey Ryan,Burundi,North America,Store_20,Delivery Delay,59,3
+213,2025-11-29,Megan Bowen,Saint Vincent and the Grenadines,Europe,Store_19,Shipping Error,442,4
+214,2025-11-30,Jason Gardner,Czech Republic,North America,Store_19,Shipping Error,47,2
+215,2025-11-29,Sandra Henderson,Falkland Islands (Malvinas),Africa,Store_20,Delivery Delay,57,3
+216,2025-11-30,Christopher Juarez,Bouvet Island (Bouvetoya),South America,Store_10,Other,350,3
+217,2025-11-28,William Copeland,Saint Pierre and Miquelon,Asia,Store_10,Shipping Error,367,4
+218,2025-11-30,Sharon Cohen,Bouvet Island (Bouvetoya),North America,Store_15,Delivery Delay,367,2
+219,2025-11-27,David Smith,Anguilla,South America,Store_17,Other,231,2
+220,2025-11-30,Allison Duncan,Saint Vincent and the Grenadines,North America,Store_6,Shipping Error,401,4
+221,2025-11-28,David Berry,Falkland Islands (Malvinas),Oceania,Store_18,Billing Issue,146,4
+222,2025-11-27,Mr. Edward Payne,Bosnia and Herzegovina,Asia,Store_14,Billing Issue,365,3
+223,2025-11-23,Jennifer Todd,Saint Vincent and the Grenadines,Oceania,Store_1,Delivery Delay,174,1
+224,2025-11-27,Ms. Debbie Wallace,Saint Vincent and the Grenadines,South America,Store_14,Billing Issue,591,3
+225,2025-11-28,Patrick Knight,Saint Vincent and the Grenadines,Africa,Store_18,Product Defect,235,2
+226,2025-11-26,Tammy Collins,Falkland Islands (Malvinas),Asia,Store_8,Product Defect,372,4
+227,2025-11-29,Brian Maddox,Saint Pierre and Miquelon,North America,Store_5,Other,440,3
+228,2025-11-30,Jamie Abbott,Ecuador,Asia,Store_20,Product Defect,20,2
+229,2025-11-23,Victor Ross,Bouvet Island (Bouvetoya),North America,Store_8,Shipping Error,421,1
+230,2025-11-24,Christopher Madden,Ecuador,Oceania,Store_15,Shipping Error,23,1
+231,2025-11-27,Catherine Brooks,Bouvet Island (Bouvetoya),Europe,Store_3,Billing Issue,556,1
+232,2025-11-29,Michael Jefferson,Anguilla,North America,Store_3,Billing Issue,264,5
+233,2025-11-27,Mr. Andrew Lee,Anguilla,Africa,Store_3,Delivery Delay,381,5
+234,2025-11-30,Jenna York,Czech Republic,Asia,Store_2,Other,80,4
+235,2025-11-26,Abigail Hawkins,Bosnia and Herzegovina,South America,Store_12,Delivery Delay,392,4
+236,2025-11-25,Michael Gregory,Bouvet Island (Bouvetoya),Asia,Store_3,Delivery Delay,585,1
+237,2025-11-23,Evelyn Jones,Northern Mariana Islands,Oceania,Store_19,Billing Issue,316,2
+238,2025-11-23,Danny Warren,Northern Mariana Islands,North America,Store_15,Shipping Error,245,2
+239,2025-11-23,Michael Morrison,Czech Republic,Asia,Store_13,Other,311,2
+240,2025-11-30,Mark Miller,Czech Republic,Oceania,Store_7,Other,23,5
+241,2025-11-25,Julie Lopez,Czech Republic,North America,Store_6,Shipping Error,470,4
+242,2025-11-26,Lindsay Sanchez,Bouvet Island (Bouvetoya),Europe,Store_10,Product Defect,96,1
+243,2025-11-30,Richard Johnson,Ecuador,North America,Store_20,Other,502,1
+244,2025-11-27,Holly Brown,Bouvet Island (Bouvetoya),Asia,Store_6,Shipping Error,313,2
+245,2025-11-26,John Rodriguez,Northern Mariana Islands,South America,Store_9,Shipping Error,129,3
+246,2025-11-26,Jessica Long,Saint Pierre and Miquelon,Oceania,Store_7,Other,79,4
+247,2025-11-30,Katherine Lopez,Falkland Islands (Malvinas),Oceania,Store_5,Other,335,3
+248,2025-11-23,Christopher Price,Ecuador,Africa,Store_10,Shipping Error,280,2
+249,2025-11-27,Alexander Wright,Burundi,Asia,Store_5,Other,510,2
+250,2025-11-27,Emily Brown,Ecuador,Africa,Store_15,Other,584,5
+251,2025-11-25,Latasha Trujillo,Anguilla,Asia,Store_11,Billing Issue,317,1
+252,2025-11-27,Lindsey Dawson,Anguilla,Europe,Store_1,Delivery Delay,130,3
+253,2025-11-29,Dennis Thompson,Bouvet Island (Bouvetoya),Europe,Store_16,Shipping Error,554,3
+254,2025-11-27,Dawn Vincent,Ecuador,North America,Store_19,Delivery Delay,369,4
+255,2025-11-29,Patrick Reynolds,Czech Republic,North America,Store_14,Other,195,2
+256,2025-11-26,Angelica Reed,Bosnia and Herzegovina,Asia,Store_8,Delivery Delay,48,2
+257,2025-11-28,Melissa Taylor,Ecuador,North America,Store_20,Billing Issue,202,3
+258,2025-11-29,Katherine Cruz,Saint Vincent and the Grenadines,South America,Store_16,Product Defect,123,2
+259,2025-11-28,Sabrina Hughes,Anguilla,Asia,Store_12,Other,516,1
+260,2025-11-24,Nicole Castro,Saint Vincent and the Grenadines,Europe,Store_4,Delivery Delay,470,3
+261,2025-11-24,Spencer Barker,Burundi,North America,Store_7,Billing Issue,585,2
+262,2025-11-29,Daniel Trujillo,Anguilla,Asia,Store_19,Product Defect,142,3
+263,2025-11-24,Michelle Jackson,Ecuador,South America,Store_19,Billing Issue,333,2
+264,2025-11-30,Noah Chan,Saint Pierre and Miquelon,South America,Store_3,Shipping Error,85,2
+265,2025-11-28,Christopher Rose,Bosnia and Herzegovina,North America,Store_12,Other,100,1
+266,2025-11-28,Jason Morton,Falkland Islands (Malvinas),Africa,Store_6,Billing Issue,458,2
+267,2025-11-30,Jose Fox,Saint Vincent and the Grenadines,Africa,Store_14,Billing Issue,218,2
+268,2025-11-24,Christina Walker,Czech Republic,Europe,Store_5,Delivery Delay,159,5
+269,2025-11-29,Elizabeth Atkins,Saint Pierre and Miquelon,Oceania,Store_16,Other,315,2
+270,2025-11-30,Derek Escobar,Burundi,Asia,Store_4,Billing Issue,242,4
+271,2025-11-30,Melissa Howard,Anguilla,Europe,Store_19,Shipping Error,377,1
+272,2025-11-29,Daniel Cox,Czech Republic,Africa,Store_19,Delivery Delay,146,5
+273,2025-11-28,Lauren Stewart,Czech Republic,Africa,Store_11,Other,296,3
+274,2025-11-24,Nicholas Clarke,Czech Republic,Asia,Store_19,Product Defect,225,1
+275,2025-11-24,Matthew Johnston,Bouvet Island (Bouvetoya),Asia,Store_13,Other,340,3
+276,2025-11-23,Melissa Erickson,Anguilla,South America,Store_5,Delivery Delay,545,1
+277,2025-11-29,Tiffany Gilbert,Northern Mariana Islands,Oceania,Store_8,Shipping Error,270,2
+278,2025-11-26,Rhonda Jones,Ecuador,Oceania,Store_4,Other,348,2
+279,2025-11-25,Sandra Chandler,Bosnia and Herzegovina,Oceania,Store_3,Shipping Error,377,4
+280,2025-11-24,Brady Hinton,Saint Vincent and the Grenadines,Oceania,Store_2,Shipping Error,261,5
+281,2025-11-30,Christopher Jordan,Bouvet Island (Bouvetoya),Oceania,Store_10,Other,311,3
+282,2025-11-27,John Hughes,Falkland Islands (Malvinas),North America,Store_1,Delivery Delay,490,3
+283,2025-11-28,Catherine Jimenez,Burundi,Oceania,Store_16,Shipping Error,312,1
+284,2025-11-27,Nicholas Miller,Czech Republic,Oceania,Store_12,Delivery Delay,528,2
+285,2025-11-24,Jennifer Davis,Czech Republic,North America,Store_7,Product Defect,390,2
+286,2025-11-26,Alexis Clark,Czech Republic,North America,Store_2,Billing Issue,482,3
+287,2025-11-30,Phillip Brandt,Saint Pierre and Miquelon,South America,Store_13,Delivery Delay,479,1
+288,2025-11-25,Elizabeth Perez,Ecuador,Europe,Store_15,Shipping Error,452,4
+289,2025-11-23,Kenneth Herrera,Czech Republic,Africa,Store_12,Delivery Delay,542,3
+290,2025-11-25,Dawn Jones,Czech Republic,Europe,Store_2,Shipping Error,540,5
+291,2025-11-29,Ryan Hays,Ecuador,Asia,Store_7,Product Defect,409,3
+292,2025-11-30,Michelle Black,Falkland Islands (Malvinas),Europe,Store_9,Delivery Delay,199,3
+293,2025-11-23,Anthony Short,Falkland Islands (Malvinas),North America,Store_19,Shipping Error,547,3
+294,2025-11-26,Kevin Thomas,Ecuador,Africa,Store_13,Delivery Delay,22,1
+295,2025-11-24,Kaitlyn White,Saint Pierre and Miquelon,Oceania,Store_5,Delivery Delay,540,4
+296,2025-11-24,Joel Clark,Czech Republic,Oceania,Store_7,Other,579,1
+297,2025-11-26,Nicole Turner,Bosnia and Herzegovina,Oceania,Store_5,Shipping Error,98,5
+298,2025-11-24,Katie Lambert,Saint Pierre and Miquelon,Africa,Store_19,Product Defect,587,1
+299,2025-11-30,Alison Matthews,Bosnia and Herzegovina,North America,Store_4,Shipping Error,355,1
+300,2025-11-24,Todd Li,Saint Pierre and Miquelon,Europe,Store_15,Billing Issue,482,4
+301,2025-11-23,Lisa Campbell,Bouvet Island (Bouvetoya),Africa,Store_2,Other,456,4
+302,2025-11-28,Sherri Mclaughlin,Anguilla,North America,Store_14,Product Defect,328,5
+303,2025-11-24,Julia Logan,Ecuador,North America,Store_17,Other,245,2
+304,2025-11-24,David Ponce,Czech Republic,South America,Store_11,Delivery Delay,514,4
+305,2025-11-26,Victoria Lopez,Bouvet Island (Bouvetoya),North America,Store_3,Other,486,3
+306,2025-11-26,Sarah Fry,Bouvet Island (Bouvetoya),North America,Store_11,Product Defect,515,4
+307,2025-11-25,Scott Stevens,Ecuador,Asia,Store_20,Product Defect,518,4
+308,2025-11-28,Danielle Chambers,Bouvet Island (Bouvetoya),Europe,Store_17,Product Defect,343,4
+309,2025-11-29,Michael Pope,Ecuador,Europe,Store_13,Product Defect,127,4
+310,2025-11-25,Douglas Jackson,Burundi,Europe,Store_11,Billing Issue,562,2
+311,2025-11-29,David Williams,Anguilla,Africa,Store_3,Product Defect,309,1
+312,2025-11-26,Justin Hunter,Ecuador,Europe,Store_7,Product Defect,305,4
+313,2025-11-23,Gary Brown,Burundi,Asia,Store_19,Shipping Error,532,4
+314,2025-11-28,Lisa Schultz,Burundi,Asia,Store_10,Shipping Error,337,3
+315,2025-11-27,Brendan Smith,Saint Pierre and Miquelon,North America,Store_4,Other,515,2
+316,2025-11-25,Jody Nichols,Bouvet Island (Bouvetoya),North America,Store_11,Billing Issue,537,5
+317,2025-11-30,Gerald Conley,Burundi,Asia,Store_2,Billing Issue,74,2
+318,2025-11-24,Sharon Larson,Ecuador,Europe,Store_7,Billing Issue,403,3
+319,2025-11-23,Rodney Wolfe,Saint Pierre and Miquelon,Oceania,Store_14,Billing Issue,443,5
+320,2025-11-29,Joan Taylor,Saint Vincent and the Grenadines,Africa,Store_16,Billing Issue,315,4
+321,2025-11-30,Danielle Lin,Bouvet Island (Bouvetoya),North America,Store_10,Delivery Delay,184,3
+322,2025-11-26,Erin Bautista,Saint Pierre and Miquelon,Oceania,Store_8,Billing Issue,104,1
+323,2025-11-29,Kimberly Garner,Ecuador,South America,Store_5,Other,471,4
+324,2025-11-29,Kimberly Richardson,Ecuador,South America,Store_6,Delivery Delay,446,4
+325,2025-11-23,John Miller,Saint Vincent and the Grenadines,Africa,Store_8,Product Defect,399,4
+326,2025-11-30,Ashley Boone,Burundi,Asia,Store_10,Delivery Delay,49,5
+327,2025-11-27,Bailey Simmons,Saint Vincent and the Grenadines,Africa,Store_16,Delivery Delay,129,5
+328,2025-11-25,Lawrence Carroll,Northern Mariana Islands,Europe,Store_7,Billing Issue,51,5
+329,2025-11-26,Dawn Murillo,Ecuador,Oceania,Store_17,Product Defect,503,1
+330,2025-11-30,Randy Harris,Saint Vincent and the Grenadines,Oceania,Store_5,Delivery Delay,231,1
+331,2025-11-23,Michael Drake,Czech Republic,South America,Store_13,Billing Issue,461,3
+332,2025-11-24,Sara Cooper,Saint Pierre and Miquelon,Asia,Store_16,Other,535,4
+333,2025-11-30,Jasmine Gilbert,Saint Pierre and Miquelon,Africa,Store_17,Billing Issue,373,5
+334,2025-11-30,Alicia Williams,Bosnia and Herzegovina,Oceania,Store_12,Shipping Error,503,1
+335,2025-11-24,Donald Wilson,Falkland Islands (Malvinas),Africa,Store_3,Shipping Error,315,4
+336,2025-11-24,Donna Johnston,Bosnia and Herzegovina,Europe,Store_13,Other,196,2
+337,2025-11-28,Paul James,Bouvet Island (Bouvetoya),Europe,Store_18,Product Defect,151,4
+338,2025-11-29,Ana Lang,Czech Republic,Africa,Store_14,Other,600,5
+339,2025-11-27,Ashley Delgado,Anguilla,Europe,Store_1,Product Defect,206,4
+340,2025-11-28,Tina Camacho,Northern Mariana Islands,Oceania,Store_8,Delivery Delay,339,2
+341,2025-11-27,Wesley Martin,Bouvet Island (Bouvetoya),Europe,Store_9,Product Defect,55,4
+342,2025-11-29,Sarah Nielsen,Ecuador,Europe,Store_8,Product Defect,360,2
+343,2025-11-27,Daniel Reyes,Bosnia and Herzegovina,Asia,Store_16,Shipping Error,69,2
+344,2025-11-29,Marilyn Phillips,Bouvet Island (Bouvetoya),Europe,Store_18,Billing Issue,595,2
+345,2025-11-30,Dr. Melissa Johnson DDS,Northern Mariana Islands,Asia,Store_11,Product Defect,549,4
+346,2025-11-30,Gerald Valdez,Czech Republic,Europe,Store_5,Other,474,4
+347,2025-11-30,Candice Nelson,Czech Republic,North America,Store_4,Product Defect,358,3
+348,2025-11-28,Michael Reilly,Czech Republic,Europe,Store_9,Product Defect,138,3
+349,2025-11-26,Yvonne Sexton,Saint Pierre and Miquelon,Oceania,Store_7,Billing Issue,586,5
+350,2025-11-28,Ashley Lee,Saint Vincent and the Grenadines,Europe,Store_6,Delivery Delay,47,5
+351,2025-11-28,Mike Ortiz,Bosnia and Herzegovina,Europe,Store_10,Delivery Delay,45,2
+352,2025-11-27,Susan Gonzalez,Bouvet Island (Bouvetoya),Oceania,Store_15,Delivery Delay,235,4
+353,2025-11-27,Donald Bradley,Anguilla,North America,Store_16,Product Defect,237,1
+354,2025-11-26,Caleb Williamson,Falkland Islands (Malvinas),Oceania,Store_5,Billing Issue,79,3
+355,2025-11-30,Rebecca Sandoval,Bouvet Island (Bouvetoya),Africa,Store_19,Shipping Error,417,2
+356,2025-11-24,Rodney Olson Jr.,Burundi,South America,Store_20,Billing Issue,159,5
+357,2025-11-25,David Hart,Bouvet Island (Bouvetoya),Europe,Store_4,Shipping Error,154,4
+358,2025-11-27,Mr. Jose Shelton Jr.,Saint Pierre and Miquelon,North America,Store_3,Billing Issue,103,4
+359,2025-11-28,Nancy Ramsey,Northern Mariana Islands,Oceania,Store_16,Other,446,2
+360,2025-11-24,Jason Hickman,Saint Vincent and the Grenadines,North America,Store_9,Delivery Delay,296,5
+361,2025-11-29,Daniel George,Bouvet Island (Bouvetoya),Africa,Store_14,Billing Issue,109,5
+362,2025-11-29,Kelly Smith MD,Czech Republic,North America,Store_16,Delivery Delay,297,3
+363,2025-11-30,Jeffrey Harper,Northern Mariana Islands,South America,Store_11,Other,458,5
+364,2025-11-29,Jacob Adams,Anguilla,North America,Store_15,Other,395,4
+365,2025-11-30,April Long,Bouvet Island (Bouvetoya),Oceania,Store_15,Delivery Delay,197,1
+366,2025-11-26,Leslie Evans,Bosnia and Herzegovina,Europe,Store_16,Shipping Error,504,1
+367,2025-11-30,Christopher Lopez,Northern Mariana Islands,Europe,Store_5,Product Defect,464,5
+368,2025-11-29,Abigail Garrett,Anguilla,Oceania,Store_9,Billing Issue,359,2
+369,2025-11-30,Angel Holland,Saint Pierre and Miquelon,Asia,Store_7,Delivery Delay,25,2
+370,2025-11-30,Katherine Wilson,Saint Pierre and Miquelon,Oceania,Store_2,Shipping Error,308,4
+371,2025-11-28,Joshua Lopez,Bosnia and Herzegovina,Asia,Store_20,Delivery Delay,568,4
+372,2025-11-27,Christopher Neal,Bosnia and Herzegovina,Oceania,Store_17,Shipping Error,293,5
+373,2025-11-26,Tracy Burton,Anguilla,Europe,Store_7,Other,159,2
+374,2025-11-29,Stephen Martin,Saint Pierre and Miquelon,South America,Store_17,Shipping Error,41,2
+375,2025-11-30,Jeffrey Martinez,Ecuador,Asia,Store_16,Other,391,3
+376,2025-11-28,Angela Underwood,Burundi,Oceania,Store_13,Billing Issue,234,1
+377,2025-11-25,Brian Phelps,Falkland Islands (Malvinas),Oceania,Store_14,Billing Issue,225,1
+378,2025-11-24,Patricia Mcintosh,Saint Vincent and the Grenadines,North America,Store_5,Product Defect,369,4
+379,2025-11-28,Wendy Reynolds,Northern Mariana Islands,Asia,Store_3,Product Defect,182,4
+380,2025-11-29,Anthony Gutierrez,Falkland Islands (Malvinas),North America,Store_12,Delivery Delay,600,3
+381,2025-11-28,Joshua Casey,Ecuador,Oceania,Store_15,Product Defect,115,3
+382,2025-11-25,Thomas Hunt,Czech Republic,South America,Store_6,Product Defect,274,4
+383,2025-11-30,Edward Snyder,Czech Republic,Europe,Store_7,Other,170,5
+384,2025-11-23,Hector Young Jr.,Burundi,Europe,Store_2,Delivery Delay,162,3
+385,2025-11-28,Elizabeth Stevens,Saint Pierre and Miquelon,Oceania,Store_17,Shipping Error,294,1
+386,2025-11-30,James White,Bosnia and Herzegovina,North America,Store_20,Other,413,5
+387,2025-11-30,Mrs. Jennifer Leblanc,Bosnia and Herzegovina,North America,Store_8,Other,222,2
+388,2025-11-26,Tyler Henderson,Saint Vincent and the Grenadines,Africa,Store_15,Shipping Error,582,5
+389,2025-11-26,Stacy Smith,Saint Pierre and Miquelon,Oceania,Store_13,Other,557,2
+390,2025-11-28,Catherine Rogers,Saint Pierre and Miquelon,Europe,Store_15,Product Defect,585,4
+391,2025-11-24,Monica Davis,Czech Republic,Asia,Store_6,Product Defect,270,3
+392,2025-11-23,Mary Cooke,Burundi,Oceania,Store_20,Other,256,4
+393,2025-11-30,Samuel Thompson,Saint Vincent and the Grenadines,Oceania,Store_12,Product Defect,131,5
+394,2025-11-23,Andrea Johnson,Czech Republic,Africa,Store_9,Other,428,1
+395,2025-11-26,Angela Moore,Saint Vincent and the Grenadines,Asia,Store_6,Other,374,1
+396,2025-11-29,Alan Mccullough,Burundi,North America,Store_5,Shipping Error,459,2
+397,2025-11-24,Deborah Murillo,Northern Mariana Islands,South America,Store_13,Shipping Error,482,4
+398,2025-11-29,Jennifer Williams,Burundi,Oceania,Store_8,Other,508,1
+399,2025-11-24,Charles Davila,Bosnia and Herzegovina,Europe,Store_12,Other,463,3
+400,2025-11-29,Kevin Ellis,Saint Pierre and Miquelon,Africa,Store_19,Product Defect,237,1
+401,2025-11-28,Michelle Cole,Saint Vincent and the Grenadines,Oceania,Store_16,Billing Issue,58,4
+402,2025-11-25,Kelsey Barber,Falkland Islands (Malvinas),North America,Store_13,Delivery Delay,71,2
+403,2025-11-26,Rick Cruz,Anguilla,Asia,Store_18,Shipping Error,525,2
+404,2025-11-29,Denise Hunter,Ecuador,Europe,Store_17,Other,295,5
+405,2025-11-24,Deanna Franco,Bosnia and Herzegovina,Africa,Store_14,Shipping Error,98,2
+406,2025-11-25,Sarah Clark,Bosnia and Herzegovina,Asia,Store_1,Shipping Error,258,3
+407,2025-11-30,Adam Walker,Anguilla,Asia,Store_15,Shipping Error,223,5
+408,2025-11-28,Jesus James,Burundi,North America,Store_13,Other,345,1
+409,2025-11-23,Stanley Young,Burundi,North America,Store_18,Billing Issue,247,5
+410,2025-11-28,Mrs. Danielle Brewer MD,Saint Pierre and Miquelon,Europe,Store_1,Other,538,4
+411,2025-11-29,Calvin Fox,Bosnia and Herzegovina,North America,Store_9,Billing Issue,31,3
+412,2025-11-24,Ann Roberts,Falkland Islands (Malvinas),Africa,Store_1,Billing Issue,530,4
+413,2025-11-26,Ashley Taylor,Ecuador,Oceania,Store_20,Shipping Error,398,3
+414,2025-11-26,Anthony Beck,Falkland Islands (Malvinas),Asia,Store_8,Shipping Error,315,5
+415,2025-11-29,Kimberly Gross,Bouvet Island (Bouvetoya),Oceania,Store_2,Shipping Error,526,5
+416,2025-11-30,Eric Bailey,Burundi,North America,Store_5,Product Defect,159,4
+417,2025-11-27,Marisa Hayes,Czech Republic,Oceania,Store_3,Billing Issue,262,2
+418,2025-11-23,Mark Wang II,Northern Mariana Islands,North America,Store_16,Delivery Delay,154,4
+419,2025-11-28,Chloe Schaefer,Northern Mariana Islands,South America,Store_14,Other,496,4
+420,2025-11-26,Angela Young,Saint Pierre and Miquelon,Oceania,Store_2,Billing Issue,125,3
+421,2025-11-28,Shannon Bell,Saint Vincent and the Grenadines,Africa,Store_13,Other,25,1
+422,2025-11-29,Patrick Martinez,Saint Pierre and Miquelon,Europe,Store_5,Delivery Delay,524,3
+423,2025-11-23,Stacey Turner,Northern Mariana Islands,Europe,Store_13,Other,97,3
+424,2025-11-28,Jennifer Johnson,Saint Pierre and Miquelon,Asia,Store_19,Product Defect,175,2
+425,2025-11-27,Elizabeth Meadows,Falkland Islands (Malvinas),Asia,Store_12,Shipping Error,361,2
+426,2025-11-26,April Dodson,Anguilla,North America,Store_4,Billing Issue,563,5
+427,2025-11-27,Maria James,Falkland Islands (Malvinas),Europe,Store_7,Other,600,5
+428,2025-11-28,Jacqueline Garcia,Bouvet Island (Bouvetoya),South America,Store_13,Other,218,2
+429,2025-11-23,Brent Hartman,Saint Vincent and the Grenadines,Africa,Store_3,Billing Issue,459,5
+430,2025-11-28,Roger Phillips,Bosnia and Herzegovina,Europe,Store_16,Delivery Delay,372,4
+431,2025-11-28,Troy Osborn,Bouvet Island (Bouvetoya),Europe,Store_14,Product Defect,436,1
+432,2025-11-24,Frances Smith,Anguilla,Africa,Store_16,Billing Issue,57,5
+433,2025-11-24,Justin Nelson,Bouvet Island (Bouvetoya),South America,Store_7,Delivery Delay,399,5
+434,2025-11-26,Scott Escobar,Saint Pierre and Miquelon,North America,Store_3,Billing Issue,336,2
+435,2025-11-30,Susan Summers,Saint Pierre and Miquelon,Africa,Store_20,Other,593,4
+436,2025-11-25,Heather Patterson,Saint Pierre and Miquelon,Africa,Store_8,Delivery Delay,206,5
+437,2025-11-27,Andrea Sanchez,Northern Mariana Islands,Asia,Store_5,Delivery Delay,529,3
+438,2025-11-23,William Fischer,Ecuador,South America,Store_2,Other,209,1
+439,2025-11-24,Christopher Johnson,Anguilla,Oceania,Store_14,Delivery Delay,283,5
+440,2025-11-28,Mark Howard,Saint Pierre and Miquelon,Africa,Store_14,Billing Issue,284,5
+441,2025-11-24,Mr. Nathan Nelson,Saint Pierre and Miquelon,Asia,Store_9,Delivery Delay,262,5
+442,2025-11-29,Charles Rodriguez,Ecuador,Asia,Store_15,Delivery Delay,206,4
+443,2025-11-23,Cody Vargas,Ecuador,Asia,Store_17,Shipping Error,328,5
+444,2025-11-30,Christopher Johnson,Northern Mariana Islands,Asia,Store_13,Shipping Error,171,2
+445,2025-11-23,Elizabeth Hancock,Northern Mariana Islands,Asia,Store_13,Delivery Delay,331,3
+446,2025-11-29,Kyle Valdez,Bouvet Island (Bouvetoya),Asia,Store_1,Delivery Delay,156,2
+447,2025-11-28,Nicholas Wells,Northern Mariana Islands,South America,Store_13,Billing Issue,400,4
+448,2025-11-23,Michael Allen,Ecuador,Europe,Store_12,Other,36,5
+449,2025-11-28,Daniel Robbins,Ecuador,Oceania,Store_15,Shipping Error,352,4
+450,2025-11-26,Ethan Garcia,Burundi,Africa,Store_8,Other,113,5
+451,2025-11-27,Nicolas Mason,Burundi,Asia,Store_8,Shipping Error,170,5
+452,2025-11-23,Kenneth Palmer,Saint Vincent and the Grenadines,Asia,Store_5,Delivery Delay,595,4
+453,2025-11-23,Heather Manning,Bosnia and Herzegovina,Europe,Store_1,Product Defect,481,4
+454,2025-11-27,Heidi Spears,Burundi,Europe,Store_10,Product Defect,272,2
+455,2025-11-25,Fernando Wright,Bouvet Island (Bouvetoya),Europe,Store_3,Other,65,2
+456,2025-11-29,Mark Montgomery,Czech Republic,Oceania,Store_5,Product Defect,511,4
+457,2025-11-26,Ethan Garcia,Saint Pierre and Miquelon,Europe,Store_8,Product Defect,22,5
+458,2025-11-26,Jason Brown,Bouvet Island (Bouvetoya),Asia,Store_12,Product Defect,270,4
+459,2025-11-23,Johnny Wu,Saint Vincent and the Grenadines,Asia,Store_13,Product Defect,215,2
+460,2025-11-30,William Hunt,Falkland Islands (Malvinas),Oceania,Store_5,Billing Issue,441,3
+461,2025-11-29,Jennifer Johnson,Saint Pierre and Miquelon,South America,Store_14,Other,49,3
+462,2025-11-23,Marie Hebert,Northern Mariana Islands,Europe,Store_12,Other,373,2
+463,2025-11-24,Oscar Cox,Ecuador,South America,Store_12,Delivery Delay,109,3
+464,2025-11-27,Melissa Bradley,Saint Vincent and the Grenadines,Oceania,Store_18,Billing Issue,479,5
+465,2025-11-24,Lauren Wright,Saint Pierre and Miquelon,Oceania,Store_2,Shipping Error,479,5
+466,2025-11-27,Michael Berry Jr.,Bosnia and Herzegovina,Oceania,Store_4,Billing Issue,558,5
+467,2025-11-24,Henry Smith,Ecuador,Oceania,Store_4,Billing Issue,292,4
+468,2025-11-29,Shawna Harris,Bouvet Island (Bouvetoya),Africa,Store_20,Billing Issue,273,1
+469,2025-11-30,Dwayne Nelson,Bouvet Island (Bouvetoya),Europe,Store_1,Shipping Error,387,4
+470,2025-11-25,Frank Mccarthy,Czech Republic,South America,Store_14,Other,581,3
+471,2025-11-27,Tracy Morrison,Ecuador,Oceania,Store_11,Product Defect,423,2
+472,2025-11-30,John Mathis,Burundi,South America,Store_14,Billing Issue,375,5
+473,2025-11-23,Kara Swanson,Anguilla,Oceania,Store_8,Billing Issue,303,2
+474,2025-11-26,Lisa Gomez,Saint Pierre and Miquelon,Europe,Store_14,Product Defect,203,4
+475,2025-11-29,Kimberly Browning,Falkland Islands (Malvinas),Africa,Store_10,Other,125,5
+476,2025-11-29,Brent Fox,Bouvet Island (Bouvetoya),Asia,Store_13,Product Defect,576,5
+477,2025-11-26,Zachary White,Czech Republic,North America,Store_11,Other,76,3
+478,2025-11-26,Dennis Henry,Saint Vincent and the Grenadines,Europe,Store_12,Delivery Delay,219,1
+479,2025-11-26,Thomas Thompson,Ecuador,South America,Store_4,Delivery Delay,469,1
+480,2025-11-25,Gina Allen,Burundi,Africa,Store_10,Shipping Error,207,3
+481,2025-11-27,Kenneth James,Burundi,Africa,Store_7,Shipping Error,189,2
+482,2025-11-26,Andrew Walter,Bosnia and Herzegovina,Oceania,Store_4,Shipping Error,404,1
+483,2025-11-29,Derrick Evans,Saint Pierre and Miquelon,North America,Store_6,Billing Issue,549,5
+484,2025-11-28,Amanda Sims,Saint Pierre and Miquelon,Asia,Store_7,Delivery Delay,235,3
+485,2025-11-30,Lynn Price,Falkland Islands (Malvinas),Europe,Store_17,Shipping Error,329,4
+486,2025-11-27,Cody Torres,Northern Mariana Islands,South America,Store_7,Other,503,2
+487,2025-11-29,Alicia Henderson,Bouvet Island (Bouvetoya),Oceania,Store_16,Billing Issue,432,3
+488,2025-11-30,Susan Gonzalez,Burundi,Africa,Store_19,Delivery Delay,409,1
+489,2025-11-26,Jennifer Cline,Falkland Islands (Malvinas),Asia,Store_5,Billing Issue,142,1
+490,2025-11-23,Frank Cole,Bosnia and Herzegovina,Asia,Store_9,Billing Issue,335,1
+491,2025-11-25,Nathan Williams,Falkland Islands (Malvinas),Europe,Store_12,Product Defect,541,4
+492,2025-11-26,Mark Lee,Falkland Islands (Malvinas),Africa,Store_9,Delivery Delay,83,4
+493,2025-11-24,Dr. Cheryl Burke DDS,Burundi,Europe,Store_13,Billing Issue,135,3
+494,2025-11-27,Angela Moore,Ecuador,North America,Store_8,Shipping Error,372,2
+495,2025-11-23,Anthony Martinez,Bouvet Island (Bouvetoya),Asia,Store_13,Other,112,3
+496,2025-11-29,Yvette Robinson,Bouvet Island (Bouvetoya),South America,Store_10,Delivery Delay,374,4
+497,2025-11-26,Corey Acosta DVM,Saint Vincent and the Grenadines,South America,Store_14,Other,291,1
+498,2025-11-24,Stacy Valentine,Saint Vincent and the Grenadines,Asia,Store_3,Shipping Error,533,1
+499,2025-11-23,Rachel Hansen,Bosnia and Herzegovina,Europe,Store_16,Delivery Delay,398,4
+500,2025-11-24,Kelli Trevino,Falkland Islands (Malvinas),Asia,Store_4,Billing Issue,382,1
+501,2025-11-27,Kristen Bradshaw,Bosnia and Herzegovina,Oceania,Store_12,Billing Issue,559,2
+502,2025-11-30,Melissa Butler,Saint Vincent and the Grenadines,South America,Store_18,Delivery Delay,493,2
+503,2025-11-29,Jeffrey Guerrero,Czech Republic,Oceania,Store_3,Other,65,5
+504,2025-11-27,Curtis Gonzalez,Saint Vincent and the Grenadines,Africa,Store_17,Delivery Delay,406,5
+505,2025-11-27,Frank Harper,Saint Pierre and Miquelon,North America,Store_15,Product Defect,215,1
+506,2025-11-23,Steven Jones,Burundi,Europe,Store_10,Shipping Error,297,3
+507,2025-11-28,Charles Carter,Northern Mariana Islands,North America,Store_1,Delivery Delay,401,1
+508,2025-11-27,Ashley Durham,Ecuador,Oceania,Store_4,Other,63,5
+509,2025-11-24,Eric Forbes,Saint Pierre and Miquelon,South America,Store_8,Product Defect,69,1
+510,2025-11-25,James Howell,Burundi,Oceania,Store_13,Product Defect,157,4
+511,2025-11-25,Deborah Douglas,Anguilla,North America,Store_16,Product Defect,451,5
+512,2025-11-28,Diane Watkins,Northern Mariana Islands,Asia,Store_7,Product Defect,410,1
+513,2025-11-28,Shannon Thompson,Bosnia and Herzegovina,Europe,Store_9,Shipping Error,254,3
+514,2025-11-26,Joseph Davis,Ecuador,North America,Store_6,Shipping Error,389,3
+515,2025-11-26,Patricia Wade,Northern Mariana Islands,Asia,Store_7,Other,494,2
+516,2025-11-27,Douglas Gutierrez,Ecuador,Europe,Store_7,Billing Issue,459,3
+517,2025-11-25,Amanda White,Czech Republic,Europe,Store_13,Delivery Delay,41,5
+518,2025-11-30,Christopher Rodriguez,Anguilla,South America,Store_9,Delivery Delay,336,1
+519,2025-11-27,Brandy Douglas,Saint Vincent and the Grenadines,Europe,Store_13,Billing Issue,108,1
+520,2025-11-24,Shannon Brown,Saint Vincent and the Grenadines,South America,Store_12,Shipping Error,332,1
+521,2025-11-25,Daryl Kelly,Ecuador,Asia,Store_6,Shipping Error,56,1
+522,2025-11-29,Heidi Williams,Anguilla,Africa,Store_19,Product Defect,186,2
+523,2025-11-27,Joshua Petersen,Saint Vincent and the Grenadines,Asia,Store_15,Other,207,5
+524,2025-11-28,Julie Rhodes,Bosnia and Herzegovina,Asia,Store_12,Other,593,2
+525,2025-11-25,Seth Turner,Ecuador,Europe,Store_16,Billing Issue,512,3
+526,2025-11-25,Jason Phillips,Bosnia and Herzegovina,Asia,Store_20,Shipping Error,484,3
+527,2025-11-29,Johnny Gill,Ecuador,Asia,Store_4,Product Defect,542,5
+528,2025-11-28,David Saunders,Czech Republic,North America,Store_18,Product Defect,453,4
+529,2025-11-29,Alan Williams,Czech Republic,Asia,Store_15,Delivery Delay,230,1
+530,2025-11-23,Cassandra Camacho,Bouvet Island (Bouvetoya),North America,Store_5,Delivery Delay,266,2
+531,2025-11-30,Lisa Harris,Ecuador,North America,Store_9,Product Defect,90,3
+532,2025-11-27,Kevin Green,Saint Pierre and Miquelon,North America,Store_11,Billing Issue,354,4
+533,2025-11-27,Kelly Howard,Bosnia and Herzegovina,Africa,Store_17,Product Defect,450,5
+534,2025-11-26,Charles Hernandez,Saint Pierre and Miquelon,Oceania,Store_5,Billing Issue,169,3
+535,2025-11-27,Daniel Ramos,Saint Vincent and the Grenadines,Europe,Store_20,Product Defect,364,2
+536,2025-11-28,Taylor Smith,Anguilla,Europe,Store_12,Delivery Delay,516,2
+537,2025-11-27,Jessica Frey,Czech Republic,South America,Store_1,Shipping Error,560,5
+538,2025-11-25,James Shannon,Falkland Islands (Malvinas),South America,Store_4,Billing Issue,502,3
+539,2025-11-29,Tyler Lee MD,Bouvet Island (Bouvetoya),Europe,Store_18,Delivery Delay,93,1
+540,2025-11-26,Angela Brown,Northern Mariana Islands,North America,Store_6,Delivery Delay,158,2
+541,2025-11-28,Ruth Johnson,Ecuador,Europe,Store_6,Delivery Delay,442,5
+542,2025-11-26,David Johnson,Anguilla,North America,Store_5,Other,378,3
+543,2025-11-24,Regina Cole,Falkland Islands (Malvinas),North America,Store_6,Shipping Error,251,2
+544,2025-11-29,Alfred Ali,Anguilla,Europe,Store_10,Billing Issue,342,2
+545,2025-11-30,Brandi Santiago MD,Bouvet Island (Bouvetoya),Asia,Store_2,Billing Issue,344,1
+546,2025-11-29,Kimberly Phillips,Burundi,Africa,Store_15,Shipping Error,578,5
+547,2025-11-23,Carl Shaw,Bouvet Island (Bouvetoya),Oceania,Store_4,Billing Issue,117,2
+548,2025-11-25,Carrie Webb,Czech Republic,Africa,Store_10,Product Defect,215,2
+549,2025-11-29,Whitney Tucker,Saint Vincent and the Grenadines,Asia,Store_12,Billing Issue,439,5
+550,2025-11-23,Yolanda Hernandez,Saint Vincent and the Grenadines,North America,Store_13,Other,207,1
+551,2025-11-23,Miss Amy Harmon,Ecuador,South America,Store_3,Other,480,2
+552,2025-11-25,Scott Hawkins,Saint Vincent and the Grenadines,Oceania,Store_18,Delivery Delay,377,3
+553,2025-11-28,Tina Miller,Ecuador,North America,Store_15,Other,495,4
+554,2025-11-25,Brian Jones,Czech Republic,Europe,Store_6,Product Defect,352,4
+555,2025-11-27,William Malone,Northern Mariana Islands,Oceania,Store_19,Product Defect,29,5
+556,2025-11-29,Kathy Curry,Saint Pierre and Miquelon,Africa,Store_3,Other,397,1
+557,2025-11-30,Maria Chen,Saint Pierre and Miquelon,South America,Store_16,Other,416,5
+558,2025-11-26,David Schmidt,Saint Pierre and Miquelon,Europe,Store_19,Delivery Delay,596,3
+559,2025-11-30,Jocelyn Wheeler,Falkland Islands (Malvinas),South America,Store_4,Product Defect,255,1
+560,2025-11-23,Gregory Herman,Northern Mariana Islands,North America,Store_10,Delivery Delay,385,3
+561,2025-11-24,Kevin Allen,Burundi,Asia,Store_17,Shipping Error,237,4
+562,2025-11-26,Christina Williams,Ecuador,North America,Store_7,Product Defect,499,1
+563,2025-11-25,Karen Walker,Saint Pierre and Miquelon,Africa,Store_20,Shipping Error,433,4
+564,2025-11-29,Candice Hill,Saint Pierre and Miquelon,Asia,Store_18,Billing Issue,232,1
+565,2025-11-24,Kevin Ward,Czech Republic,North America,Store_3,Delivery Delay,429,3
+566,2025-11-24,Anthony Gilbert,Falkland Islands (Malvinas),Oceania,Store_20,Billing Issue,487,2
+567,2025-11-29,Crystal Torres,Ecuador,Oceania,Store_10,Product Defect,95,1
+568,2025-11-28,Ronald Koch,Ecuador,South America,Store_16,Delivery Delay,61,2
+569,2025-11-23,Elizabeth Green,Anguilla,South America,Store_11,Other,439,1
+570,2025-11-28,Jeffrey Morgan,Saint Pierre and Miquelon,South America,Store_20,Shipping Error,208,3
+571,2025-11-27,Brett Smith,Saint Vincent and the Grenadines,Asia,Store_6,Product Defect,117,3
+572,2025-11-27,Jacqueline Monroe,Ecuador,North America,Store_4,Product Defect,368,5
+573,2025-11-29,Veronica Weber,Northern Mariana Islands,South America,Store_5,Delivery Delay,539,1
+574,2025-11-23,Stephen Richards,Falkland Islands (Malvinas),Europe,Store_19,Other,133,3
+575,2025-11-24,Kim Martin,Falkland Islands (Malvinas),Oceania,Store_4,Billing Issue,17,3
+576,2025-11-23,William Hoffman,Saint Pierre and Miquelon,Asia,Store_1,Delivery Delay,262,3
+577,2025-11-30,Andrew Sandoval,Falkland Islands (Malvinas),Oceania,Store_6,Other,426,2
+578,2025-11-29,Crystal Young,Falkland Islands (Malvinas),Europe,Store_6,Product Defect,436,3
+579,2025-11-30,Benjamin Douglas,Anguilla,Asia,Store_9,Product Defect,197,3
+580,2025-11-28,Christopher Morris,Saint Vincent and the Grenadines,Africa,Store_13,Delivery Delay,311,2
+581,2025-11-27,Michael Mitchell,Northern Mariana Islands,Africa,Store_3,Shipping Error,304,3
+582,2025-11-25,Daniel Harrison,Ecuador,Oceania,Store_8,Other,424,5
+583,2025-11-28,Ashley Cardenas,Anguilla,South America,Store_14,Other,196,1
+584,2025-11-24,Wendy Valdez,Saint Pierre and Miquelon,Oceania,Store_18,Delivery Delay,184,2
+585,2025-11-27,Diana Brown,Czech Republic,South America,Store_4,Billing Issue,178,5
+586,2025-11-23,Mr. Brett Miller,Bosnia and Herzegovina,South America,Store_1,Product Defect,23,5
+587,2025-11-30,Daniel Howard,Bosnia and Herzegovina,Oceania,Store_1,Other,460,2
+588,2025-11-28,Michelle Becker,Bouvet Island (Bouvetoya),Oceania,Store_11,Other,94,1
+589,2025-11-30,Olivia Boyer MD,Ecuador,Oceania,Store_7,Product Defect,135,4
+590,2025-11-23,Olivia Hall,Anguilla,Oceania,Store_12,Product Defect,259,4
+591,2025-11-30,Abigail Russell,Northern Mariana Islands,Africa,Store_13,Delivery Delay,330,2
+592,2025-11-30,Deborah Romero,Burundi,Asia,Store_18,Shipping Error,199,3
+593,2025-11-26,Jerry Davis,Burundi,Europe,Store_16,Product Defect,51,1
+594,2025-11-28,Nancy Jones,Saint Vincent and the Grenadines,North America,Store_8,Delivery Delay,22,2
+595,2025-11-25,William Orozco,Ecuador,South America,Store_19,Shipping Error,293,4
+596,2025-11-27,Mark Hebert,Bouvet Island (Bouvetoya),North America,Store_8,Delivery Delay,117,3
+597,2025-11-24,Brianna Grant,Bosnia and Herzegovina,South America,Store_17,Product Defect,312,5
+598,2025-11-27,Billy Robinson,Anguilla,North America,Store_14,Shipping Error,217,1
+599,2025-11-28,Brian Oneill,Falkland Islands (Malvinas),North America,Store_1,Other,45,2
+600,2025-11-27,John Randall,Bosnia and Herzegovina,Europe,Store_8,Delivery Delay,379,4
+601,2025-11-28,Carrie Leonard,Saint Vincent and the Grenadines,Oceania,Store_13,Shipping Error,523,1
+602,2025-11-26,Victoria Vazquez,Czech Republic,Asia,Store_14,Product Defect,351,1
+603,2025-11-27,Curtis Garcia,Ecuador,North America,Store_6,Other,153,2
+604,2025-11-25,Robert Miller,Ecuador,Oceania,Store_7,Billing Issue,538,3
+605,2025-11-25,Dylan Wilcox,Bosnia and Herzegovina,South America,Store_20,Other,231,3
+606,2025-11-29,Alexis Cook,Ecuador,South America,Store_15,Billing Issue,577,2
+607,2025-11-26,Alyssa Nguyen,Ecuador,North America,Store_4,Other,523,1
+608,2025-11-29,Noah Ballard,Falkland Islands (Malvinas),Europe,Store_14,Billing Issue,105,2
+609,2025-11-26,Lisa Hammond,Bouvet Island (Bouvetoya),Asia,Store_9,Delivery Delay,174,3
+610,2025-11-27,William Owens,Burundi,Africa,Store_7,Delivery Delay,478,3
+611,2025-11-23,Melissa Horton,Bouvet Island (Bouvetoya),South America,Store_7,Product Defect,524,1
+612,2025-11-26,Shannon Gilbert,Falkland Islands (Malvinas),Africa,Store_4,Billing Issue,119,1
+613,2025-11-28,Rebecca Simmons,Anguilla,South America,Store_20,Shipping Error,220,4
+614,2025-11-27,Melissa Perez,Anguilla,South America,Store_5,Delivery Delay,206,4
+615,2025-11-27,Stephen Johnson,Ecuador,Asia,Store_7,Shipping Error,513,4
+616,2025-11-30,Tammy Stevens,Bosnia and Herzegovina,South America,Store_16,Billing Issue,414,4
+617,2025-11-25,Felicia Odonnell,Czech Republic,Africa,Store_17,Shipping Error,214,1
+618,2025-11-24,Tara Martinez,Saint Vincent and the Grenadines,North America,Store_8,Product Defect,514,5
+619,2025-11-25,Andrea Ibarra,Bouvet Island (Bouvetoya),South America,Store_1,Product Defect,442,4
+620,2025-11-24,Anthony Johnston,Bosnia and Herzegovina,Africa,Store_13,Delivery Delay,318,5
+621,2025-11-27,Jessica Burnett,Bosnia and Herzegovina,Europe,Store_18,Billing Issue,137,3
+622,2025-11-30,Erin Simon,Ecuador,South America,Store_4,Shipping Error,57,2
+623,2025-11-27,Allison Sanford,Bosnia and Herzegovina,Asia,Store_5,Shipping Error,44,4
+624,2025-11-25,Sandra Thomas DDS,Anguilla,Africa,Store_15,Other,335,4
+625,2025-11-24,Edwin Brown,Falkland Islands (Malvinas),Europe,Store_1,Other,404,4
+626,2025-11-24,Gabrielle Gillespie,Ecuador,Africa,Store_6,Other,209,2
+627,2025-11-28,Angela Richardson,Burundi,Africa,Store_20,Delivery Delay,575,5
+628,2025-11-28,Jose Richards,Northern Mariana Islands,South America,Store_19,Delivery Delay,210,1
+629,2025-11-26,Brian Tran,Falkland Islands (Malvinas),Oceania,Store_16,Delivery Delay,95,2
+630,2025-11-23,James Logan,Anguilla,South America,Store_7,Delivery Delay,157,2
+631,2025-11-28,Victoria Nichols,Bosnia and Herzegovina,Asia,Store_4,Product Defect,172,1
+632,2025-11-30,Jorge Brown,Anguilla,North America,Store_7,Delivery Delay,224,2
+633,2025-11-28,Audrey King,Saint Pierre and Miquelon,North America,Store_8,Product Defect,568,5
+634,2025-11-28,Sharon Chavez,Bouvet Island (Bouvetoya),Europe,Store_4,Product Defect,524,4
+635,2025-11-26,Brett Crane,Saint Pierre and Miquelon,Oceania,Store_15,Other,176,4
+636,2025-11-30,Donna Taylor,Czech Republic,South America,Store_18,Product Defect,266,4
+637,2025-11-23,Richard Gonzalez,Saint Pierre and Miquelon,Oceania,Store_10,Product Defect,148,5
+638,2025-11-29,Tracey Parks,Czech Republic,Asia,Store_4,Billing Issue,276,3
+639,2025-11-29,Lisa Maxwell,Ecuador,South America,Store_9,Product Defect,39,4
+640,2025-11-25,Luke Murray,Northern Mariana Islands,South America,Store_17,Delivery Delay,331,5
+641,2025-11-27,Robin Reid,Bosnia and Herzegovina,Africa,Store_4,Other,532,4
+642,2025-11-25,Heather Johnson,Northern Mariana Islands,North America,Store_19,Other,96,1
+643,2025-11-26,Joshua Carter,Northern Mariana Islands,Europe,Store_17,Billing Issue,258,2
+644,2025-11-24,Charles Oconnor,Falkland Islands (Malvinas),Europe,Store_19,Other,133,1
+645,2025-11-30,Teresa Thompson,Bosnia and Herzegovina,South America,Store_8,Product Defect,36,3
+646,2025-11-23,Jill Villa,Burundi,Asia,Store_19,Billing Issue,69,3
+647,2025-11-27,Tina Williams,Saint Vincent and the Grenadines,North America,Store_15,Delivery Delay,185,5
+648,2025-11-23,Stephanie Cross,Anguilla,Oceania,Store_17,Billing Issue,285,1
+649,2025-11-29,Roger Hill,Bouvet Island (Bouvetoya),Oceania,Store_13,Other,233,4
+650,2025-11-25,Shelly Mcdowell,Falkland Islands (Malvinas),Europe,Store_17,Other,353,1
+651,2025-11-29,Jenny Strong,Saint Vincent and the Grenadines,North America,Store_8,Other,121,2
+652,2025-11-30,Brittany Norman,Northern Mariana Islands,Oceania,Store_11,Shipping Error,316,1
+653,2025-11-23,Yesenia Kelly,Saint Vincent and the Grenadines,South America,Store_14,Product Defect,194,4
+654,2025-11-28,Christopher Mathews,Bosnia and Herzegovina,Asia,Store_4,Billing Issue,146,3
+655,2025-11-26,Krista Ward,Saint Pierre and Miquelon,Asia,Store_3,Shipping Error,254,3
+656,2025-11-30,Jeremy Gonzales,Saint Pierre and Miquelon,Europe,Store_4,Shipping Error,304,3
+657,2025-11-29,Wesley Reynolds,Czech Republic,Africa,Store_9,Shipping Error,123,2
+658,2025-11-25,Wayne Gilmore,Bosnia and Herzegovina,Europe,Store_4,Delivery Delay,197,5
+659,2025-11-24,Helen Ray,Ecuador,Africa,Store_11,Delivery Delay,115,5
+660,2025-11-28,Alan Bryant,Saint Pierre and Miquelon,Europe,Store_4,Delivery Delay,111,3
+661,2025-11-29,Kaitlyn Scott,Northern Mariana Islands,North America,Store_7,Billing Issue,270,3
+662,2025-11-29,Dr. Stephanie Vaughan,Saint Pierre and Miquelon,North America,Store_17,Other,30,1
+663,2025-11-27,Kelli Smith,Northern Mariana Islands,Africa,Store_4,Product Defect,263,3
+664,2025-11-29,Robert Elliott,Saint Vincent and the Grenadines,Europe,Store_13,Shipping Error,406,4
+665,2025-11-23,Savannah Leblanc,Anguilla,South America,Store_4,Shipping Error,589,5
+666,2025-11-25,Tony Norris,Burundi,Africa,Store_18,Other,296,4
+667,2025-11-30,Kevin Taylor DDS,Bouvet Island (Bouvetoya),Africa,Store_3,Other,218,5
+668,2025-11-26,Susan Giles,Falkland Islands (Malvinas),South America,Store_15,Delivery Delay,371,1
+669,2025-11-23,Travis Woodward,Falkland Islands (Malvinas),South America,Store_8,Delivery Delay,583,1
+670,2025-11-25,Luis Norman,Saint Pierre and Miquelon,North America,Store_4,Product Defect,131,1
+671,2025-11-27,Derrick Lozano,Saint Pierre and Miquelon,North America,Store_10,Delivery Delay,323,2
+672,2025-11-23,Christopher Daniel,Falkland Islands (Malvinas),Asia,Store_10,Shipping Error,595,4
+673,2025-11-27,Kristin Jackson,Anguilla,Asia,Store_19,Shipping Error,241,3
+674,2025-11-23,Jeremy Ellison,Northern Mariana Islands,Europe,Store_19,Shipping Error,444,5
+675,2025-11-26,April Hoffman,Saint Vincent and the Grenadines,Asia,Store_12,Delivery Delay,77,3
+676,2025-11-24,Karen Hensley,Bosnia and Herzegovina,Asia,Store_3,Delivery Delay,217,1
+677,2025-11-26,Christopher Garner,Northern Mariana Islands,South America,Store_13,Shipping Error,87,4
+678,2025-11-23,Victoria Campbell,Czech Republic,Oceania,Store_4,Shipping Error,426,5
+679,2025-11-27,Thomas Martinez,Czech Republic,Asia,Store_18,Product Defect,46,5
+680,2025-11-30,Roberta Davis,Anguilla,Africa,Store_10,Other,87,5
+681,2025-11-24,Whitney Ruiz,Saint Pierre and Miquelon,South America,Store_19,Shipping Error,158,2
+682,2025-11-27,Ruth Johnson,Falkland Islands (Malvinas),Asia,Store_2,Billing Issue,393,4
+683,2025-11-25,Nicholas Morrow,Falkland Islands (Malvinas),South America,Store_15,Product Defect,99,2
+684,2025-11-29,Deborah Crawford,Saint Vincent and the Grenadines,Oceania,Store_13,Product Defect,41,5
+685,2025-11-24,Kayla Rodriguez,Czech Republic,Europe,Store_9,Other,316,1
+686,2025-11-30,Sarah Raymond,Anguilla,North America,Store_3,Other,44,1
+687,2025-11-30,Ricardo Lopez,Northern Mariana Islands,Oceania,Store_13,Shipping Error,554,4
+688,2025-11-26,Ashley Morrow,Burundi,North America,Store_4,Other,386,5
+689,2025-11-26,Maria Ibarra,Ecuador,Africa,Store_9,Delivery Delay,327,4
+690,2025-11-23,Nicole Parker,Ecuador,Oceania,Store_15,Delivery Delay,177,4
+691,2025-11-28,Scott Dunn,Czech Republic,Asia,Store_13,Billing Issue,118,4
+692,2025-11-28,Mallory Jennings,Czech Republic,South America,Store_14,Shipping Error,112,3
+693,2025-11-30,Rhonda Sanders,Bouvet Island (Bouvetoya),Europe,Store_4,Product Defect,54,4
+694,2025-11-23,Julian Larson,Bouvet Island (Bouvetoya),Africa,Store_1,Billing Issue,554,5
+695,2025-11-26,Jonathan Frazier DDS,Ecuador,Africa,Store_14,Shipping Error,205,4
+696,2025-11-25,Jeffrey Payne,Ecuador,Oceania,Store_11,Product Defect,368,4
+697,2025-11-29,Colton Gibbs,Bouvet Island (Bouvetoya),Asia,Store_1,Product Defect,207,3
+698,2025-11-27,Zachary Martin,Saint Pierre and Miquelon,Europe,Store_17,Shipping Error,82,5
+699,2025-11-29,Eric Ramirez,Saint Pierre and Miquelon,Oceania,Store_7,Delivery Delay,273,2
+700,2025-11-27,Timothy Davies,Anguilla,North America,Store_19,Other,522,5
+701,2025-11-28,Rachael Carter,Saint Vincent and the Grenadines,North America,Store_4,Delivery Delay,81,2
+702,2025-11-26,Robert Stephens,Bosnia and Herzegovina,Africa,Store_19,Product Defect,24,5
+703,2025-11-23,Elizabeth Brown,Falkland Islands (Malvinas),Europe,Store_2,Product Defect,516,4
+704,2025-11-28,Mrs. Angela Hernandez,Saint Pierre and Miquelon,Asia,Store_19,Delivery Delay,123,3
+705,2025-11-23,Bradley Hamilton,Ecuador,South America,Store_11,Delivery Delay,166,3
+706,2025-11-30,Brian Mcbride,Saint Pierre and Miquelon,South America,Store_2,Other,62,5
+707,2025-11-28,Samuel Wilson,Bosnia and Herzegovina,Europe,Store_5,Shipping Error,592,1
+708,2025-11-27,Ashley Ortiz,Czech Republic,North America,Store_13,Other,84,5
+709,2025-11-24,Christopher Garcia,Saint Pierre and Miquelon,North America,Store_17,Shipping Error,288,5
+710,2025-11-26,Robyn Bishop,Czech Republic,North America,Store_14,Other,439,1
+711,2025-11-29,Carla Gross,Saint Vincent and the Grenadines,South America,Store_15,Shipping Error,83,4
+712,2025-11-30,Justin Harrison,Ecuador,North America,Store_20,Shipping Error,599,3
+713,2025-11-25,Brooke James,Czech Republic,Africa,Store_4,Billing Issue,293,5
+714,2025-11-30,Eric Trujillo,Saint Pierre and Miquelon,Africa,Store_3,Billing Issue,113,2
+715,2025-11-27,Bianca Scott,Ecuador,North America,Store_15,Shipping Error,51,3
+716,2025-11-23,Hunter Leach,Saint Pierre and Miquelon,South America,Store_11,Billing Issue,56,3
+717,2025-11-29,Matthew Salinas,Anguilla,Asia,Store_10,Other,97,5
+718,2025-11-29,Michaela Mitchell,Burundi,Africa,Store_19,Billing Issue,40,1
+719,2025-11-26,Rhonda Mcgee,Bosnia and Herzegovina,Europe,Store_19,Product Defect,553,4
+720,2025-11-23,Katherine Wang,Burundi,Asia,Store_3,Billing Issue,187,1
+721,2025-11-24,Olivia Solomon,Saint Vincent and the Grenadines,Asia,Store_20,Other,332,2
+722,2025-11-25,Johnathan Clark,Saint Pierre and Miquelon,Oceania,Store_3,Billing Issue,32,3
+723,2025-11-29,Kristi Henry,Anguilla,Asia,Store_16,Other,462,2
+724,2025-11-28,Anthony Adams,Burundi,North America,Store_7,Shipping Error,181,4
+725,2025-11-26,Daniel Campbell,Saint Vincent and the Grenadines,Europe,Store_17,Other,26,2
+726,2025-11-27,Hector Jones,Ecuador,Asia,Store_10,Shipping Error,527,3
+727,2025-11-26,Mary Frazier,Anguilla,Europe,Store_2,Other,344,3
+728,2025-11-29,Michael Farrell,Saint Pierre and Miquelon,South America,Store_4,Shipping Error,486,2
+729,2025-11-23,Charles Davis,Burundi,Africa,Store_1,Other,92,5
+730,2025-11-27,John Grant,Czech Republic,South America,Store_14,Delivery Delay,491,1
+731,2025-11-28,David Kim,Bouvet Island (Bouvetoya),Europe,Store_2,Product Defect,374,4
+732,2025-11-25,Erik Anderson,Ecuador,South America,Store_13,Product Defect,85,1
+733,2025-11-23,Kathleen Lee,Anguilla,Africa,Store_1,Billing Issue,479,5
+734,2025-11-28,Sarah Carter,Ecuador,Europe,Store_1,Delivery Delay,277,3
+735,2025-11-27,Samuel Robinson,Bouvet Island (Bouvetoya),Asia,Store_14,Shipping Error,258,1
+736,2025-11-28,Edward Brown,Burundi,North America,Store_16,Billing Issue,459,2
+737,2025-11-25,Elizabeth Contreras,Northern Mariana Islands,North America,Store_4,Shipping Error,341,5
+738,2025-11-25,Ronald Edwards,Saint Pierre and Miquelon,North America,Store_19,Delivery Delay,343,2
+739,2025-11-30,Robert Davis,Northern Mariana Islands,Europe,Store_8,Shipping Error,416,1
+740,2025-11-30,Donna Leon,Anguilla,Europe,Store_7,Product Defect,300,5
+741,2025-11-26,Jonathan Tapia,Anguilla,North America,Store_15,Shipping Error,389,4
+742,2025-11-30,Samantha Baker,Burundi,Africa,Store_9,Shipping Error,412,5
+743,2025-11-28,Mark Buchanan,Saint Vincent and the Grenadines,North America,Store_9,Delivery Delay,315,5
+744,2025-11-27,Michelle Cox,Anguilla,South America,Store_18,Other,535,5
+745,2025-11-23,Thomas Robinson,Burundi,South America,Store_12,Shipping Error,307,4
+746,2025-11-28,Dr. Andrew Davis,Saint Pierre and Miquelon,Asia,Store_15,Other,395,4
+747,2025-11-27,Amanda Clark,Ecuador,Europe,Store_19,Product Defect,298,2
+748,2025-11-30,Travis Kelly,Bosnia and Herzegovina,North America,Store_9,Shipping Error,566,2
+749,2025-11-28,Michelle Harvey,Bouvet Island (Bouvetoya),South America,Store_12,Product Defect,202,5
+750,2025-11-30,Emily Sullivan,Saint Vincent and the Grenadines,Asia,Store_4,Delivery Delay,578,4
+751,2025-11-30,Douglas Keller,Saint Pierre and Miquelon,South America,Store_8,Billing Issue,84,3
+752,2025-11-27,James Alexander III,Saint Pierre and Miquelon,South America,Store_16,Shipping Error,322,4
+753,2025-11-29,Anna Turner,Saint Vincent and the Grenadines,Africa,Store_15,Delivery Delay,33,2
+754,2025-11-24,Jenna Silva,Saint Pierre and Miquelon,Africa,Store_15,Product Defect,524,4
+755,2025-11-29,Dr. Diana Smith,Northern Mariana Islands,South America,Store_18,Other,549,4
+756,2025-11-30,Richard Martin,Falkland Islands (Malvinas),Oceania,Store_6,Delivery Delay,353,1
+757,2025-11-28,Michael Paul,Burundi,Africa,Store_10,Shipping Error,194,2
+758,2025-11-24,Chad Frazier,Czech Republic,North America,Store_9,Shipping Error,353,1
+759,2025-11-29,Donna Walters,Ecuador,Europe,Store_12,Product Defect,102,2
+760,2025-11-24,James Smith,Falkland Islands (Malvinas),Europe,Store_8,Other,143,5
+761,2025-11-30,Jose Stewart,Bosnia and Herzegovina,Europe,Store_18,Shipping Error,536,4
+762,2025-11-28,Sara Cook,Bouvet Island (Bouvetoya),Oceania,Store_9,Shipping Error,434,1
+763,2025-11-24,Pamela Frye,Burundi,Europe,Store_12,Other,257,5
+764,2025-11-29,Jacob Gallagher,Burundi,Europe,Store_4,Billing Issue,393,2
+765,2025-11-25,Anthony Larson,Czech Republic,Asia,Store_3,Product Defect,284,4
+766,2025-11-28,Terry Olson,Ecuador,North America,Store_20,Billing Issue,512,5
+767,2025-11-30,Manuel Ray,Saint Vincent and the Grenadines,Asia,Store_4,Shipping Error,571,2
+768,2025-11-25,Frank Mooney,Northern Mariana Islands,North America,Store_6,Shipping Error,142,1
+769,2025-11-26,David Smith,Bouvet Island (Bouvetoya),Africa,Store_2,Delivery Delay,161,1
+770,2025-11-27,Hunter Schmitt,Bosnia and Herzegovina,Africa,Store_2,Delivery Delay,561,3
+771,2025-11-30,Amy Mahoney,Ecuador,Asia,Store_12,Shipping Error,512,2
+772,2025-11-27,Frank Leach,Saint Vincent and the Grenadines,North America,Store_18,Product Defect,249,5
+773,2025-11-24,Daniel Jordan,Saint Vincent and the Grenadines,North America,Store_3,Other,261,4
+774,2025-11-29,Calvin Hale,Bosnia and Herzegovina,Oceania,Store_9,Other,544,2
+775,2025-11-28,Casey Chandler,Bosnia and Herzegovina,Africa,Store_1,Other,293,4
+776,2025-11-30,Amanda Byrd,Saint Vincent and the Grenadines,North America,Store_19,Shipping Error,338,5
+777,2025-11-27,Frank Hahn,Ecuador,South America,Store_5,Shipping Error,124,2
+778,2025-11-30,Ariana Conner DDS,Northern Mariana Islands,Oceania,Store_5,Billing Issue,321,4
+779,2025-11-27,George Berry,Ecuador,Africa,Store_18,Other,44,5
+780,2025-11-23,Sarah Yang,Czech Republic,South America,Store_1,Other,319,4
+781,2025-11-26,Carrie Adams,Northern Mariana Islands,South America,Store_5,Shipping Error,312,4
+782,2025-11-28,Jessica Hamilton,Saint Pierre and Miquelon,Africa,Store_19,Other,581,4
+783,2025-11-25,Terry Robinson,Falkland Islands (Malvinas),Asia,Store_10,Shipping Error,263,1
+784,2025-11-25,Bailey Miller,Saint Pierre and Miquelon,Oceania,Store_9,Product Defect,58,5
+785,2025-11-25,Pamela Harris,Burundi,Asia,Store_19,Product Defect,595,1
+786,2025-11-24,Meagan Hernandez,Bouvet Island (Bouvetoya),North America,Store_5,Delivery Delay,201,1
+787,2025-11-28,Joshua Sanders,Bouvet Island (Bouvetoya),North America,Store_17,Billing Issue,95,2
+788,2025-11-29,Debra Serrano,Saint Pierre and Miquelon,Asia,Store_2,Billing Issue,312,1
+789,2025-11-29,Barbara Riley,Ecuador,North America,Store_8,Shipping Error,23,1
+790,2025-11-30,Martha Morgan,Burundi,South America,Store_12,Delivery Delay,70,1
+791,2025-11-26,Scott Gardner,Anguilla,North America,Store_14,Delivery Delay,502,2
+792,2025-11-27,Ariana Vaughan,Burundi,Africa,Store_10,Product Defect,179,4
+793,2025-11-30,William Tran,Falkland Islands (Malvinas),Africa,Store_10,Shipping Error,293,2
+794,2025-11-24,Jamie Wilson,Northern Mariana Islands,North America,Store_5,Product Defect,252,5
+795,2025-11-28,Adrian Martinez,Falkland Islands (Malvinas),North America,Store_15,Shipping Error,507,2
+796,2025-11-23,Ronnie Dyer,Ecuador,Africa,Store_11,Other,193,1
+797,2025-11-29,Sean Cox,Falkland Islands (Malvinas),Asia,Store_20,Other,444,5
+798,2025-11-25,Linda Mcintosh,Anguilla,Asia,Store_7,Delivery Delay,154,1
+799,2025-11-25,Cristian Rodriguez,Ecuador,Asia,Store_17,Other,547,2
+800,2025-11-25,Robert Stokes,Saint Vincent and the Grenadines,Europe,Store_16,Other,137,3
+801,2025-11-24,Nathan Trevino,Anguilla,Asia,Store_15,Delivery Delay,437,4
+802,2025-11-23,David Estrada,Burundi,South America,Store_20,Product Defect,322,3
+803,2025-11-28,James Clayton,Falkland Islands (Malvinas),Oceania,Store_16,Billing Issue,463,1
+804,2025-11-24,Dakota Benson,Saint Vincent and the Grenadines,Europe,Store_12,Shipping Error,554,4
+805,2025-11-26,Christopher Cook,Bouvet Island (Bouvetoya),Oceania,Store_2,Product Defect,320,2
+806,2025-11-29,Tiffany Scott,Falkland Islands (Malvinas),Asia,Store_20,Shipping Error,251,5
+807,2025-11-27,April Franco,Czech Republic,Africa,Store_10,Billing Issue,540,2
+808,2025-11-24,Nicholas Dominguez,Northern Mariana Islands,Africa,Store_1,Product Defect,369,5
+809,2025-11-28,Nathan Tran,Saint Pierre and Miquelon,Oceania,Store_16,Product Defect,402,2
+810,2025-11-25,Diana Villa,Burundi,Asia,Store_2,Product Defect,517,1
+811,2025-11-25,Manuel Coleman,Czech Republic,Asia,Store_6,Delivery Delay,21,2
+812,2025-11-26,John Black,Saint Pierre and Miquelon,South America,Store_6,Other,575,1
+813,2025-11-30,Sarah Lopez,Saint Vincent and the Grenadines,South America,Store_14,Billing Issue,597,4
+814,2025-11-23,Tyler Sanchez,Czech Republic,Oceania,Store_20,Billing Issue,17,1
+815,2025-11-29,Marco Brown,Falkland Islands (Malvinas),North America,Store_8,Billing Issue,438,2
+816,2025-11-26,Brian Johnson,Bosnia and Herzegovina,Asia,Store_1,Product Defect,89,1
+817,2025-11-24,Matthew Hughes,Saint Pierre and Miquelon,South America,Store_1,Delivery Delay,19,1
+818,2025-11-25,Gabriella Murphy,Anguilla,North America,Store_2,Billing Issue,256,2
+819,2025-11-25,Cynthia Simmons,Northern Mariana Islands,Africa,Store_19,Product Defect,382,4
+820,2025-11-23,Susan Garrison,Saint Pierre and Miquelon,Africa,Store_17,Delivery Delay,313,4
+821,2025-11-29,Charles Snow,Bouvet Island (Bouvetoya),South America,Store_4,Delivery Delay,109,3
+822,2025-11-30,Pamela Tucker,Saint Pierre and Miquelon,North America,Store_9,Shipping Error,375,5
+823,2025-11-24,George Mendoza,Bouvet Island (Bouvetoya),South America,Store_7,Other,60,4
+824,2025-11-29,Michael Carlson,Ecuador,Europe,Store_13,Other,558,5
+825,2025-11-28,Mr. David Vega,Burundi,Oceania,Store_14,Delivery Delay,202,4
+826,2025-11-26,Jasmine Pope,Bouvet Island (Bouvetoya),South America,Store_1,Product Defect,371,1
+827,2025-11-25,Jared Lee,Falkland Islands (Malvinas),Asia,Store_1,Shipping Error,219,2
+828,2025-11-30,Cindy Guzman,Northern Mariana Islands,Oceania,Store_12,Product Defect,296,1
+829,2025-11-29,Christopher Stone,Bosnia and Herzegovina,Asia,Store_11,Shipping Error,321,4
+830,2025-11-29,Joshua Ellis,Czech Republic,South America,Store_13,Billing Issue,436,5
+831,2025-11-24,Alexander Barnett,Falkland Islands (Malvinas),North America,Store_17,Billing Issue,23,1
+832,2025-11-23,Dustin Abbott,Northern Mariana Islands,Oceania,Store_4,Product Defect,469,3
+833,2025-11-26,Roger Newton,Burundi,Africa,Store_9,Shipping Error,114,1
+834,2025-11-30,Crystal Green,Saint Vincent and the Grenadines,Africa,Store_6,Product Defect,199,2
+835,2025-11-28,Victoria Hunt,Saint Pierre and Miquelon,Oceania,Store_8,Product Defect,507,4
+836,2025-11-25,Brittany Norton,Anguilla,North America,Store_8,Billing Issue,352,1
+837,2025-11-24,Barbara Bell,Ecuador,Asia,Store_4,Shipping Error,520,4
+838,2025-11-28,Patrick Malone,Burundi,Africa,Store_14,Shipping Error,95,1
+839,2025-11-23,Edward Thompson,Northern Mariana Islands,Europe,Store_12,Other,103,1
+840,2025-11-29,Diane Stevens,Anguilla,Oceania,Store_9,Shipping Error,259,5
+841,2025-11-26,Janice Daniels,Saint Vincent and the Grenadines,Asia,Store_17,Other,102,3
+842,2025-11-23,George Mills,Anguilla,South America,Store_19,Shipping Error,245,1
+843,2025-11-28,Lisa Chapman,Ecuador,Oceania,Store_12,Other,63,1
+844,2025-11-30,Sean Campbell,Ecuador,South America,Store_11,Shipping Error,351,1
+845,2025-11-26,Steve Hampton,Bouvet Island (Bouvetoya),Africa,Store_8,Other,154,2
+846,2025-11-30,Jose Lewis,Northern Mariana Islands,Oceania,Store_18,Billing Issue,296,3
+847,2025-11-29,Leslie Walker,Saint Pierre and Miquelon,Oceania,Store_11,Delivery Delay,122,2
+848,2025-11-24,Taylor Howell,Saint Vincent and the Grenadines,Africa,Store_12,Billing Issue,126,5
+849,2025-11-27,Michael Brennan,Anguilla,Africa,Store_8,Product Defect,427,3
+850,2025-11-28,Michael Hall,Burundi,Europe,Store_3,Shipping Error,474,2
+851,2025-11-26,Chad Phillips,Burundi,Oceania,Store_2,Delivery Delay,63,4
+852,2025-11-28,Natasha Mcdaniel,Saint Vincent and the Grenadines,South America,Store_2,Billing Issue,316,5
+853,2025-11-30,Henry Scott,Bouvet Island (Bouvetoya),North America,Store_16,Other,253,1
+854,2025-11-23,Mitchell Mckinney,Saint Pierre and Miquelon,North America,Store_13,Product Defect,507,4
+855,2025-11-28,Corey Martinez,Czech Republic,Oceania,Store_20,Other,15,4
+856,2025-11-23,Tammy Jenkins,Falkland Islands (Malvinas),Europe,Store_17,Shipping Error,412,1
+857,2025-11-28,Janice Aguilar,Czech Republic,South America,Store_4,Delivery Delay,584,2
+858,2025-11-25,Ronald Wiley,Bouvet Island (Bouvetoya),Oceania,Store_1,Shipping Error,335,5
+859,2025-11-29,Ashley Welch,Falkland Islands (Malvinas),North America,Store_12,Other,258,1
+860,2025-11-30,Jennifer Morris,Ecuador,North America,Store_7,Shipping Error,217,1
+861,2025-11-27,Kelly Travis,Bosnia and Herzegovina,North America,Store_17,Other,432,5
+862,2025-11-24,Jon Knight,Saint Pierre and Miquelon,Oceania,Store_13,Delivery Delay,501,3
+863,2025-11-29,Lindsey Lynn,Saint Pierre and Miquelon,South America,Store_7,Billing Issue,339,3
+864,2025-11-29,Paul Baker,Falkland Islands (Malvinas),Oceania,Store_6,Product Defect,44,4
+865,2025-11-25,Crystal Evans,Ecuador,Asia,Store_17,Product Defect,70,1
+866,2025-11-26,Julie Lane,Ecuador,Africa,Store_2,Other,486,3
+867,2025-11-29,Jonathan Campbell,Saint Vincent and the Grenadines,Asia,Store_10,Other,114,1
+868,2025-11-28,Nicholas Wilson,Saint Vincent and the Grenadines,Asia,Store_18,Other,260,1
+869,2025-11-25,Richard Smith,Burundi,Oceania,Store_6,Shipping Error,468,5
+870,2025-11-26,Curtis Sutton,Falkland Islands (Malvinas),Europe,Store_16,Other,207,2
+871,2025-11-24,Ashley Banks,Saint Pierre and Miquelon,Europe,Store_13,Shipping Error,103,4
+872,2025-11-30,Scott Anderson,Bouvet Island (Bouvetoya),Europe,Store_1,Product Defect,306,1
+873,2025-11-25,Deanna Baker,Northern Mariana Islands,South America,Store_8,Shipping Error,82,4
+874,2025-11-27,Tiffany Dudley,Ecuador,South America,Store_9,Delivery Delay,500,5
+875,2025-11-24,Katie Johnson,Saint Pierre and Miquelon,Asia,Store_17,Delivery Delay,33,1
+876,2025-11-23,Logan Davis,Northern Mariana Islands,Europe,Store_8,Product Defect,75,2
+877,2025-11-24,Joshua Mcintosh,Falkland Islands (Malvinas),Africa,Store_19,Delivery Delay,276,1
+878,2025-11-24,Audrey Rodriguez,Bouvet Island (Bouvetoya),Oceania,Store_8,Other,180,1
+879,2025-11-28,Wendy Orr,Saint Pierre and Miquelon,Oceania,Store_3,Other,168,4
+880,2025-11-30,Margaret Parker,Anguilla,Asia,Store_10,Product Defect,474,4
+881,2025-11-27,James Henderson,Ecuador,South America,Store_3,Other,332,4
+882,2025-11-24,Crystal Peterson,Ecuador,Oceania,Store_18,Product Defect,226,4
+883,2025-11-28,Claudia Frank,Bosnia and Herzegovina,South America,Store_10,Shipping Error,60,5
+884,2025-11-24,Jimmy Fletcher,Falkland Islands (Malvinas),Africa,Store_15,Delivery Delay,204,5
+885,2025-11-23,Jesse Martinez,Saint Pierre and Miquelon,North America,Store_8,Other,149,4
+886,2025-11-28,Heidi Bennett,Czech Republic,Europe,Store_19,Shipping Error,562,5
+887,2025-11-29,Ashley Huber,Saint Pierre and Miquelon,Europe,Store_5,Shipping Error,427,4
+888,2025-11-24,Timothy Good,Czech Republic,Oceania,Store_19,Other,176,4
+889,2025-11-30,Ms. Phyllis Mcpherson,Northern Mariana Islands,Oceania,Store_17,Shipping Error,400,3
+890,2025-11-30,Lori Wallace,Falkland Islands (Malvinas),Africa,Store_14,Billing Issue,475,4
+891,2025-11-28,Miss Angela Leon,Bosnia and Herzegovina,South America,Store_16,Shipping Error,508,2
+892,2025-11-23,Melanie Reynolds MD,Northern Mariana Islands,South America,Store_11,Delivery Delay,436,5
+893,2025-11-25,Chase Johnson,Saint Vincent and the Grenadines,Oceania,Store_8,Shipping Error,255,2
+894,2025-11-26,Keith Thompson,Falkland Islands (Malvinas),South America,Store_10,Delivery Delay,194,4
+895,2025-11-30,Heidi Brown,Saint Pierre and Miquelon,Africa,Store_13,Billing Issue,474,1
+896,2025-11-30,Victoria Weber,Saint Vincent and the Grenadines,Oceania,Store_18,Billing Issue,282,4
+897,2025-11-23,Tracy Rowe,Ecuador,North America,Store_3,Shipping Error,230,2
+898,2025-11-24,Samuel Burke,Saint Vincent and the Grenadines,North America,Store_1,Billing Issue,541,4
+899,2025-11-25,Karen Johnson,Saint Pierre and Miquelon,Africa,Store_1,Product Defect,175,5
+900,2025-11-28,Kevin Arnold,Ecuador,South America,Store_13,Other,238,1
+901,2025-11-26,Robert Gentry,Burundi,Oceania,Store_2,Shipping Error,85,5
+902,2025-11-23,Brandy Skinner,Czech Republic,North America,Store_7,Delivery Delay,369,3
+903,2025-11-26,Nicholas Shaw,Falkland Islands (Malvinas),Asia,Store_20,Delivery Delay,591,4
+904,2025-11-27,Taylor Larsen,Burundi,Europe,Store_18,Billing Issue,569,4
+905,2025-11-30,Laura Lopez,Bouvet Island (Bouvetoya),Europe,Store_15,Product Defect,315,5
+906,2025-11-28,Melissa Vega,Bosnia and Herzegovina,South America,Store_8,Billing Issue,221,4
+907,2025-11-28,David Pearson,Northern Mariana Islands,Africa,Store_9,Delivery Delay,442,2
+908,2025-11-29,Melissa Bryant,Burundi,North America,Store_9,Delivery Delay,532,5
+909,2025-11-29,Jessica Lewis,Anguilla,Africa,Store_16,Delivery Delay,100,2
+910,2025-11-25,Aaron Jones,Bouvet Island (Bouvetoya),Asia,Store_13,Shipping Error,474,1
+911,2025-11-24,William Navarro,Bosnia and Herzegovina,Europe,Store_17,Shipping Error,136,4
+912,2025-11-24,Heather Gallegos,Northern Mariana Islands,Asia,Store_11,Other,177,1
+913,2025-11-30,Chelsea Larson,Bouvet Island (Bouvetoya),Africa,Store_20,Other,37,2
+914,2025-11-25,Ronald Long,Bouvet Island (Bouvetoya),North America,Store_4,Other,422,1
+915,2025-11-28,Benjamin Bailey,Northern Mariana Islands,North America,Store_10,Shipping Error,126,1
+916,2025-11-30,Ryan Kennedy,Saint Vincent and the Grenadines,Asia,Store_3,Shipping Error,277,1
+917,2025-11-27,Nancy Harris,Czech Republic,Asia,Store_12,Billing Issue,350,1
+918,2025-11-25,John Young,Saint Vincent and the Grenadines,North America,Store_11,Billing Issue,91,4
+919,2025-11-27,Jason Sanchez,Bosnia and Herzegovina,Europe,Store_12,Shipping Error,430,2
+920,2025-11-23,Jessica Thornton,Saint Vincent and the Grenadines,South America,Store_7,Product Defect,539,4
+921,2025-11-27,Mark Gibson,Saint Pierre and Miquelon,South America,Store_11,Delivery Delay,70,4
+922,2025-11-27,Jesus Donovan,Falkland Islands (Malvinas),North America,Store_11,Product Defect,339,1
+923,2025-11-24,Victor Cook,Bosnia and Herzegovina,Europe,Store_14,Billing Issue,251,4
+924,2025-11-27,Andrea Sims,Burundi,Europe,Store_13,Shipping Error,452,4
+925,2025-11-30,Joshua White,Saint Pierre and Miquelon,Oceania,Store_4,Product Defect,286,1
+926,2025-11-27,Margaret Myers,Ecuador,North America,Store_9,Billing Issue,575,4
+927,2025-11-27,Christopher Nelson,Bosnia and Herzegovina,Europe,Store_11,Product Defect,369,1
+928,2025-11-23,Adam Rich,Falkland Islands (Malvinas),North America,Store_12,Delivery Delay,548,3
+929,2025-11-23,Phillip Glenn,Czech Republic,North America,Store_20,Product Defect,278,4
+930,2025-11-28,Kristin Brock,Bouvet Island (Bouvetoya),North America,Store_5,Shipping Error,102,1
+931,2025-11-23,Ryan Watson,Falkland Islands (Malvinas),Africa,Store_19,Delivery Delay,192,4
+932,2025-11-27,Kevin Adams,Saint Vincent and the Grenadines,Africa,Store_9,Shipping Error,41,5
+933,2025-11-24,Krystal Scott,Bosnia and Herzegovina,North America,Store_1,Billing Issue,64,5
+934,2025-11-24,Victor Smith,Czech Republic,North America,Store_8,Other,170,2
+935,2025-11-29,Jeffery Fry,Anguilla,Asia,Store_19,Product Defect,152,5
+936,2025-11-29,Amber Sanford DDS,Ecuador,South America,Store_4,Delivery Delay,187,3
+937,2025-11-24,Margaret Becker MD,Anguilla,Africa,Store_7,Delivery Delay,42,4
+938,2025-11-25,Jason Davis,Saint Vincent and the Grenadines,Africa,Store_4,Other,231,5
+939,2025-11-25,Erin Cook,Falkland Islands (Malvinas),Asia,Store_4,Shipping Error,520,5
+940,2025-11-24,Debbie Johnson,Burundi,South America,Store_13,Delivery Delay,462,1
+941,2025-11-30,Jeffrey Morton,Bosnia and Herzegovina,Europe,Store_4,Shipping Error,159,5
+942,2025-11-25,Amy Cox,Saint Vincent and the Grenadines,North America,Store_11,Other,140,2
+943,2025-11-26,Daryl Johnson,Ecuador,North America,Store_3,Billing Issue,268,3
+944,2025-11-29,Marissa Perez,Anguilla,Oceania,Store_18,Shipping Error,155,3
+945,2025-11-28,Brian Tate,Northern Mariana Islands,Asia,Store_1,Other,274,1
+946,2025-11-27,Erica Mcdaniel,Burundi,Oceania,Store_16,Delivery Delay,454,5
+947,2025-11-25,Heather Anderson,Saint Pierre and Miquelon,Oceania,Store_20,Other,192,1
+948,2025-11-25,Veronica Harris,Falkland Islands (Malvinas),Asia,Store_13,Other,179,1
+949,2025-11-29,Randy Decker,Saint Vincent and the Grenadines,South America,Store_5,Other,514,1
+950,2025-11-26,Jenny Mcdaniel,Saint Pierre and Miquelon,South America,Store_10,Shipping Error,251,2
+951,2025-11-25,Rachel Strong,Saint Vincent and the Grenadines,North America,Store_5,Billing Issue,177,4
+952,2025-11-26,Katherine Farley,Burundi,Africa,Store_7,Shipping Error,539,1
+953,2025-11-25,Robert Smith,Ecuador,Asia,Store_4,Billing Issue,365,2
+954,2025-11-30,Sheri Cruz,Saint Pierre and Miquelon,Asia,Store_16,Billing Issue,22,3
+955,2025-11-27,Anthony Cooper,Burundi,Asia,Store_3,Shipping Error,449,3
+956,2025-11-26,Michelle Roberts,Falkland Islands (Malvinas),Asia,Store_3,Delivery Delay,367,4
+957,2025-11-27,Brandon Perez,Northern Mariana Islands,South America,Store_11,Product Defect,373,2
+958,2025-11-25,Desiree Carey,Bosnia and Herzegovina,North America,Store_5,Billing Issue,321,3
+959,2025-11-26,Mary Hardy,Falkland Islands (Malvinas),Oceania,Store_12,Delivery Delay,392,3
+960,2025-11-23,Manuel Hill,Saint Pierre and Miquelon,Oceania,Store_20,Shipping Error,509,3
+961,2025-11-27,Wendy Barron,Burundi,North America,Store_18,Delivery Delay,344,4
+962,2025-11-23,Erica Garcia,Czech Republic,South America,Store_6,Billing Issue,15,1
+963,2025-11-29,Charles Roberts,Anguilla,North America,Store_1,Billing Issue,214,4
+964,2025-11-30,Steven Howard,Bouvet Island (Bouvetoya),Asia,Store_20,Billing Issue,576,4
+965,2025-11-25,Matthew Miller,Falkland Islands (Malvinas),Africa,Store_9,Other,147,4
+966,2025-11-24,David Carter,Ecuador,North America,Store_17,Product Defect,20,3
+967,2025-11-29,Taylor Taylor,Saint Pierre and Miquelon,North America,Store_2,Other,63,5
+968,2025-11-25,Kylie Marks,Northern Mariana Islands,Oceania,Store_16,Other,19,5
+969,2025-11-25,Joshua Robinson,Anguilla,Europe,Store_19,Product Defect,379,2
+970,2025-11-24,Carrie Allen,Northern Mariana Islands,Oceania,Store_19,Billing Issue,162,2
+971,2025-11-28,Victor Santos,Falkland Islands (Malvinas),South America,Store_19,Delivery Delay,231,1
+972,2025-11-25,Rachel Payne,Burundi,Africa,Store_5,Other,26,2
+973,2025-11-28,Mike Ortiz,Bouvet Island (Bouvetoya),Europe,Store_1,Product Defect,188,4
+974,2025-11-25,Lisa Nguyen,Ecuador,South America,Store_19,Other,539,5
+975,2025-11-26,Mark Hill,Ecuador,Africa,Store_9,Product Defect,187,4
+976,2025-11-23,Lawrence Lewis,Saint Vincent and the Grenadines,North America,Store_6,Billing Issue,65,5
+977,2025-11-23,James Bradley,Burundi,South America,Store_2,Delivery Delay,253,4
+978,2025-11-24,Erin Garcia,Burundi,Europe,Store_12,Delivery Delay,403,5
+979,2025-11-28,Dana Burgess,Anguilla,Asia,Store_13,Delivery Delay,533,5
+980,2025-11-28,Sabrina Petty,Bosnia and Herzegovina,North America,Store_2,Other,349,1
+981,2025-11-28,Lisa Jensen,Bouvet Island (Bouvetoya),North America,Store_5,Other,441,4
+982,2025-11-23,Matthew Tran,Northern Mariana Islands,Africa,Store_19,Other,482,3
+983,2025-11-27,Scott Shaw,Bouvet Island (Bouvetoya),Europe,Store_15,Delivery Delay,397,5
+984,2025-11-23,Matthew Brown,Saint Vincent and the Grenadines,South America,Store_10,Other,515,2
+985,2025-11-30,Rhonda Hall,Anguilla,Oceania,Store_12,Other,36,1
+986,2025-11-25,Dr. Brian Ferrell,Ecuador,Africa,Store_19,Shipping Error,533,3
+987,2025-11-26,James Rivera,Falkland Islands (Malvinas),North America,Store_5,Other,467,5
+988,2025-11-29,Martha Leonard,Burundi,Europe,Store_11,Billing Issue,203,5
+989,2025-11-28,Javier Franco,Bosnia and Herzegovina,Africa,Store_11,Shipping Error,98,5
+990,2025-11-27,Ms. Jill Conley DVM,Burundi,Oceania,Store_16,Delivery Delay,60,4
+991,2025-11-24,Benjamin Mccullough,Bosnia and Herzegovina,Europe,Store_2,Product Defect,390,2
+992,2025-11-26,Lindsay Davis,Czech Republic,North America,Store_12,Other,167,1
+993,2025-11-30,Colleen Rice,Anguilla,North America,Store_9,Delivery Delay,361,1
+994,2025-11-28,Andrew Stevens,Ecuador,Africa,Store_18,Shipping Error,445,2
+995,2025-11-24,Maria Ramirez,Falkland Islands (Malvinas),Oceania,Store_8,Other,492,1
+996,2025-11-29,Dawn Vincent,Bouvet Island (Bouvetoya),Europe,Store_11,Billing Issue,164,1
+997,2025-11-24,William Nunez,Saint Pierre and Miquelon,Africa,Store_20,Billing Issue,277,5
+998,2025-11-24,John Davis,Bosnia and Herzegovina,North America,Store_13,Billing Issue,358,1
+999,2025-11-30,Melissa Hart,Saint Vincent and the Grenadines,North America,Store_13,Shipping Error,448,3
+1000,2025-11-24,Angela Ibarra,Falkland Islands (Malvinas),North America,Store_3,Product Defect,476,3
