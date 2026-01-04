@@ -16,4 +16,6 @@ WITH PRODUCTS AS (
     FROM {{ ref('stg_sales') }}
 )
 
-SELECT * FROM PRODUCTS
+SELECT *,
+    {{ dbt_utils.generate_surrogate_key(['PRODUCT_NAME', 'CATEGORY', 'BRAND']) }} AS PRODUCT_KEY
+FROM PRODUCTS
