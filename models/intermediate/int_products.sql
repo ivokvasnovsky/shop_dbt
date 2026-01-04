@@ -18,13 +18,9 @@ WITH PRODUCTS AS (
 
 SELECT
     *,
-    
-        
-        
-        
-        
-        
-        {{ dbt_utils.generate_surrogate_key(['PRODUCT_NAME', 'CATEGORY', 'BRAND']) }}
-{{ dbt_utils.generate_surrogate_key(['PRODUCT_NAME', 'CATEGORY', 'BRAND']) }}
-        AS PRODUCT_KEY
+    {{ dbt_utils.generate_surrogate_key([
+        'PRODUCT_NAME',
+        'CATEGORY',
+        'BRAND'
+        ]) }} AS PRODUCT_KEY
 FROM PRODUCTS
