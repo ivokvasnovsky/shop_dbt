@@ -12,3 +12,4 @@ profiles_dir = .
 [sqlfluff:indentation]
 # Standardize indentation
 tab_width = 4
+
