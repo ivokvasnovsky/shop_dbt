@@ -1,5 +1,8 @@
 with stg_customer_support as (
     select
+        dbt_utils.surrogate_key([
+            'TICKET_ID'
+        ]) as customer_support_key,
         ticket_id::INT as ticket_id,
         ticket_date,
         customer_name::VARCHAR(255) as customer_name,
